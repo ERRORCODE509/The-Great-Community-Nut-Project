@@ -167,7 +167,7 @@
     "copy-from": "iv_mutagen_flavor",
     "type": "COMESTIBLE",
     "name": { "str": "pine serum" },
-    "description": "A super-concentrated mutagen that shines with a holy glow.  You need a syringe to inject it… if you really want to?",
+    "description": "A super-concentrated mutagen that shines with a green holy glow.  You need a syringe to inject it… and you really want to do.",
     "color": "green",
     "use_action": { "type": "mutagen_iv", "mutation_category": "PLANT" }
   }
