@@ -23,8 +23,8 @@
   },
   {
     "type": "COMESTIBLE",
-    "id": "nut_muffin",
-    "name": { "str_sp": "nut muffin" },
+    "id": "nut_muffins",
+    "name": { "str_sp": "nut muffins" },
     "weight": "30 g",
     "color": "brown",
     "spoils_in": "4 days",
