@@ -46,7 +46,7 @@
     "type": "COMESTIBLE",
     "id": "trail_mix_basic",
     "name": { "str_sp": "basic trail mix" },
-    "weight": "20 g",
+    "weight": "50 g",
     "color": "brown",
     "spoils_in": "90 days",
     "comestible_type": "FOOD",
@@ -58,7 +58,7 @@
     "price": 60,
     "price_postapoc": 10,
     "material": [ "fruit" ],
-    "volume": "35 ml",
+    "volume": "70 ml",
     "stack_size": 5,
     "fun": 2,
     "vitamins": [ [ "vitC", 3 ], [ "calcium", 2 ] ]
