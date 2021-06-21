@@ -6,6 +6,6 @@
     "authors": [ "ERROR_CODE"],
     "description": "Because nuts were a bit useless before.",
     "category": "items",
-    "dependencies": [ "dda" ]
+    "dependencies": [ "dda", "magiclysm" ]
   }
 ]
