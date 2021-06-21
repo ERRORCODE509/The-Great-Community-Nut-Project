@@ -138,5 +138,37 @@
 	"weight": "150 g",
     "volume": "500 ml",
     "to_hit": -5
+  },{
+    "id": "mutagen_pine",
+    "copy-from": "mutagen_flavor",
+    "type": "COMESTIBLE",
+    "name": { "str": "pine mutagen" },
+    "use_action": { "type": "mutagen", "mutation_category": "PLANT" }
+  },{
+    "id": "recipe_pine",
+    "type": "BOOK",
+    "name": { "str": "Bible of Pine" },
+    "description": "Written with cooperation of labs and Church of Pine,this book covers how to ascend holy pine form.",
+    "weight": "1700 g",
+    "volume": "500 ml",
+    "price": 50000,
+    "price_postapoc": 2000,
+    "material": [ "paper" ],
+    "symbol": "?",
+    "color": "green",
+    "skill": "chemistry",
+    "required_level": 6,
+    "max_level": 7,
+    "intelligence": 8,
+    "time": "45 m",
+    "fun": 3
+  },{
+    "id": "iv_mutagen_pine",
+    "copy-from": "iv_mutagen_flavor",
+    "type": "COMESTIBLE",
+    "name": { "str": "pine serum" },
+    "description": "A super-concentrated mutagen that shines with a holy glow.  You need a syringe to inject it… if you really want to?",
+    "color": "green",
+    "use_action": { "type": "mutagen_iv", "mutation_category": "PLANT" }
   }
 ]
