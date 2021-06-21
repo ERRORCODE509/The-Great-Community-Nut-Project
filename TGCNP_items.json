@@ -97,5 +97,37 @@
     "name": { "str_sp": "cooked pine nut meal" },
     "description": "A serving of [PINE NUTS] that have been hulled, chopped, and boiled in water before being thoroughly toasted until dry.  Filling and nutritious.",
 	"copy-from": "acorns_cooked"
+  },
+{
+    "id": "nut_shell",
+     "type": "AMMO",
+    "ammo_type" : "nut",
+    "category": "ammo",
+    "name": { "str": "nut shell" },
+    "description": "Byproduct of cracking nut.Can be used as fuel,or as ammo",
+    "weight": "0.1 g",
+    "volume": "5 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "material": [ "wood" ],
+    "symbol": ".",
+    "flags":["FIREWOOD","TINDER"]
+    "color": "brown",
+    "stack_size": 200,
+    "looks_like": "tinder"
+  },
+   {
+    "type": "GENERIC",
+    "id": "pinecone",
+	"copy-from": "pinecone",
+    "symbol": ",",
+    "color": "brown",
+    "name": { "str": "pinecone" },
+    "description": "A spiny pod from a pine tree.  Dry seeds rattle around inside when you shake it.",
+    "material": [ "wood" ],
+	"weight": "90 g",
+    "volume": "250 ml",
+    "to_hit": -2,
+    "flags": [ "FIREWOOD","TINDER" ]
   }
 ]
