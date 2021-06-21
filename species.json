@@ -1,0 +1,14 @@
+[
+  {
+    "type": "SPECIES",
+    "id": "GOLEM",
+    "anger_triggers": [ "HURT", "PLAYER_CLOSE" ],
+    "fear_triggers": [ "FIRE" ]
+  },
+  {
+    "type": "SPECIES",
+    "id": "TITAN",
+    "anger_triggers": [ "HURT" ],
+    "fear_triggers": [ "FIRE" ]
+  }
+]

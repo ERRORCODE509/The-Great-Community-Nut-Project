@@ -1,0 +1,13 @@
+[
+  {
+    "type": "monstergroup",
+    "name": "GROUP_FOREST",
+    "default": "mon_null",
+    "is_animal": true,
+    "monsters": [
+      { "monster": "mon_nut_golem", "freq": 2, "cost_multiplier": 8 },
+      { "monster": "mon_nut_titan", "freq": 1, "cost_multiplier": 12 },
+      { "monster": "mon_nut_construct", "freq": 3, "cost_multiplier": 4 }
+    ]
+  }
+]
