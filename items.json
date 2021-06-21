@@ -105,7 +105,7 @@
     "category": "ammo",
     "name": { "str": "nut shell" },
     "description": "The shells left behind after cracking open a nut. Could be used as fuel, or made into charcoal.",
-    "weight": "0.05 g",
+    "weight": "50 mg",
     "volume": "1 ml",
     "price": 0,
     "price_postapoc": 0,
