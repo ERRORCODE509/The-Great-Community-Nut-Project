@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "TGCNP",
+    "name": "The Great Community Nut Project",
+    "authors": [ "ERROR_CODE"],
+    "description": "Because nuts were a bit useless before.",
+    "category": "items",
+    "dependencies": [ "dda" ]
+  }
+]
