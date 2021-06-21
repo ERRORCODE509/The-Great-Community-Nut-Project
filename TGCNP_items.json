@@ -62,5 +62,40 @@
     "stack_size": 5,
     "fun": 2,
     "vitamins": [ [ "vitC", 3 ], [ "calcium", 2 ] ]
+  },
+{
+    "type": "COMESTIBLE",
+    "id": "pine_nut_milk",
+    "name": { "str": "pine nut milk" },
+    "description": "Milk some [PINE NUTS]?  Not quite, but blend them with water, yes!  A dairy-free alternative strong in calcium!  Rival to [ALL] milk.",
+	"copy-from": "almond_milk"
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "pine_nut_pulp",
+    "name": { "str_sp": "pine nut pulp" },
+    "description": "Pulp left over after making [PINE] milk.  It's gritty and bland.",
+	"copy-from": "almond_pulp"
+  },
+  {
+    "id": "pine_nut_ambrosia",
+    "type": "COMESTIBLE",
+    "name": { "str": "pine nut ambrosia" },
+    "description": "Delicious [PINE] nut ambrosia.  A drink worthy of the gods.",
+    "copy-from": "hickory_nut_ambrosia"
+  },
+  {
+    "id": "pine_nut_butter",
+    "type": "COMESTIBLE",
+    "name": { "str": "pine nut butter" },
+    "description": "A light brown paste that tastes very little like its namesake.  It's not bad, but it'll stick to the roof of your mouth.",
+	"copy-from": "peanutbutter"
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "pine_nut_meal",
+    "name": { "str_sp": "cooked pine nut meal" },
+    "description": "A serving of [PINE NUTS] that have been hulled, chopped, and boiled in water before being thoroughly toasted until dry.  Filling and nutritious.",
+	"copy-from": "acorns_cooked"
   }
 ]
