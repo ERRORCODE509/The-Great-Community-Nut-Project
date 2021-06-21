@@ -104,7 +104,7 @@
     "ammo_type" : "nut",
     "category": "ammo",
     "name": { "str": "nut shell" },
-    "description": "Byproduct of cracking nut.Can be used as fuel,or as ammo",
+    "description": "The shells left behind after cracking open a nut. Can be used as fuel, made into charcoal, or used as ammo if you're desperate.",
     "weight": "0.1 g",
     "volume": "5 ml",
     "price": 0,
