@@ -1,0 +1,29 @@
+[
+  {
+    "id": "nut_golem",
+    "type": "harvest",
+    "entries": [
+      { "drop": "pine_nuts", "type": "flesh", "mass_ratio": 0.225 },
+      { "drop": "small_mana_crystal", "scale_num": [ 1, 1 ], "max": 2, "type": "offal" },
+      { "drop": "pinecone", "type": "bone", "mass_ratio": 0.025 }
+    ]
+  },
+  {
+    "id": "nut_titan",
+    "type": "harvest",
+    "entries": [
+      { "drop": "pine_nuts", "type": "flesh", "mass_ratio": 0.15 },
+      { "drop": "small_mana_crystal", "scale_num": [ 1, 1 ], "max": 5, "type": "offal" },
+      { "drop": "pinecone", "type": "bone", "mass_ratio": 0.005 }
+    ]
+  },
+  {
+    "id": "nut_construct",
+    "type": "harvest",
+    "entries": [
+      { "drop": "pine_nuts", "type": "flesh", "mass_ratio": 0.15 },
+      { "drop": "small_mana_crystal", "scale_num": [ 1, 1 ], "max": 1, "type": "offal" },
+      { "drop": "pinecone", "type": "bone", "mass_ratio": 0.025 }
+    ]
+  }
+]
