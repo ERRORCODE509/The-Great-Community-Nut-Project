@@ -111,18 +111,7 @@
     "symbol": ".",
     "flags":["FIREWOOD","TINDER"],
     "color": "brown",
-    "stack_size": 200,
     "looks_like": "tinder"
-   },
-   {
-    "id": "nut_shell_large",
-    "type": "AMMO",
-	"ammo_type" : "nut",
-	"name": { "str": "large nut shell" },
-    "copy-from": "nut_shell",
-    "description": "The shells left behind after cracking open a large nut. Could be used as fuel, made into charcoal, or used as ammo if you're really desperate.",
-    "weight": "50 mg",
-    "volume": "5 ml"
    },
    {
     "type": "GENERIC",
@@ -137,5 +126,17 @@
     "volume": "250 ml",
     "to_hit": -2,
     "flags": [ "FIREWOOD","TINDER" ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "pine_heart",
+    "symbol": ",",
+    "color": "green",
+    "name": { "str": "pine heart" },
+    "description": "Butchered from a pine creature,this heart like organ resembles a pinecone;homever,it is green like pine needle and its scales replaced with vessels that dripping pine sap instead of blood.",
+    "material": [ "flesh","veggy" ],
+	"weight": "150 g",
+    "volume": "500 ml",
+    "to_hit": -5
   }
 ]
