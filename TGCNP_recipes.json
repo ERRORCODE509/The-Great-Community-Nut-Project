@@ -383,5 +383,21 @@
     "components": [
       [ [ "soy_nuts", 1 ], [ "acorns", 1 ], [ "acorn_roasted", 1 ], [ "almond", 1 ], [ "almond_unshelled", 1 ], [ "almond_roasted", 1 ], [ "pistachio", 1 ], [ "pistachio_unshelled", 1 ], [ "pistachio_roasted", 1 ], [ "cashews", 1 ], [ "pecan", 1 ], [ "pecan_unshelled", 1 ], [ "pecan_roasted", 1 ], [ "beech_nuts", 1 ], [ "coconut", 1 ], [ "walnut", 1 ], [ "walnut_unshelled", 1 ], [ "walnut_roasted", 1 ], [ "chestnut", 1 ], [ "chestnut_unshelled", 1 ], [ "chestnut_roasted", 1 ], [ "hazelnut", 1 ], [ "hazelnut_unshelled", 1 ], [ "hazelnut_roasted", 1 ], [ "peanut", 1 ], [ "peanut_unshelled", 1 ], [ "hickory_nut", 1 ], [ "hickory_nut_unshelled", 1 ], [ "hickory_nut_roasted", 1 ], [ "pinecone", 1 ] ]
     ]
+  },
+{
+    "type": "recipe",
+    "result": "pine_nuts",
+    "id_suffix": "harvest_pinecone",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_VEGGI",
+    "skill_used": "cooking",
+    "skills_required": [ "survival", 2 ],
+    "difficulty": 1,
+    "charges": 1,
+    "time": "1 m 30 s",
+    "autolearn": true,
+    "batch_time_factors": [ 80, 1 ],
+    "tools": [ [ [ "surface_heat", 5, "LIST" ] ] ],
+    "components": [ [ [ "pinecone", 1 ] ] ]
   }
 ]
