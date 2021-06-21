@@ -142,5 +142,225 @@
     "components": [
       [ [ "hickory_nut", 1 ] ]
     ]
+  },
+{
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+	"id_suffix": "pine_milk_mortar",
+    "result": "pine_nut_milk",
+    "result_mult": 3,
+    "byproducts": [ [ "pine_nut_pulp" ] ],
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_DRINKS",
+    "skill_used": "cooking",
+    "difficulty": 1,
+    "autolearn": true,
+    "time": "15 m",
+    "qualities": [ { "id": "CONTAIN", "level": 1 } ],
+    "tools": [ [ [ "rag", -1 ] ], [ [ "mortar_pestle", -1 ] ] ],
+    "batch_time_factors": [ 30, 1 ],
+    "components": [ [ [ "pine_nuts", 2 ] ], [ [ "water_clean", 3 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+	"id_suffix": "pine_milk_quern",
+    "result": "pine_nut_milk",
+    "result_mult": 3,
+    "byproducts": [ [ "pine_nut_pulp" ] ],
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_DRINKS",
+    "skill_used": "cooking",
+    "difficulty": 1,
+    "autolearn": true,
+    "time": "11 m",
+    "qualities": [ { "id": "CONTAIN", "level": 1 } ],
+    "tools": [ [ [ "rag", -1 ] ], [ [ "rock_quern", -1 ], [ "clay_quern", -1 ] ] ],
+    "batch_time_factors": [ 65, 1 ],
+    "components": [ [ [ "pine_nuts", 2 ] ], [ [ "water_clean", 3 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+	"id_suffix": "pine_milk_blender",
+    "result": "pine_nut_milk",
+    "result_mult": 3,
+    "byproducts": [ [ "pine_nut_pulp" ] ],
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_DRINKS",
+    "skill_used": "cooking",
+    "difficulty": 1,
+    "autolearn": true,
+    "time": "9 m",
+    "qualities": [ { "id": "CONTAIN", "level": 1 } ],
+    "tools": [ [ [ "food_processor", 20 ] ], [ [ "rag", -1 ] ] ],
+    "batch_time_factors": [ 80, 1 ],
+    "components": [ [ [ "pine_nuts", 2 ] ], [ [ "water_clean", 3 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "pine_nut_ambrosia",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_DRINKS",
+    "skill_used": "cooking",
+    "difficulty": 4,
+	"autolearn": true,
+    "time": "48 m",
+    "batch_time_factors": [ 80, 1 ],
+    "charges": 10,
+    "qualities": [ { "id": "COOK", "level": 3 }, { "id": "BOIL", "level": 2 } ],
+    "tools": [ [ [ "surface_heat", 5, "LIST" ] ] ],
+    "components": [
+      [ [ "pine_nuts", 4 ] ],
+      [ [ "pine_nut_milk", 1 ] ],
+      [
+        [ "honeycomb", 1 ],
+        [ "honey_bottled", 6 ],
+        [ "honey_glassed", 3 ],
+        [ "sugar", 20 ],
+        [ "artificial_sweetener", 20 ],
+        [ "syrup", 8 ],
+        [ "beet_syrup", 8 ]
+      ],
+      [ [ "water", 10 ], [ "water_clean", 10 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "pine_nut_butter",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_OTHER",
+    "skill_used": "cooking",
+    "difficulty": 1,
+    "time": "10 m",
+    "charges": 4,
+    "autolearn": true,
+    "qualities": [ { "id": "COOK", "level": 1 } ],
+    "tools": [ [ [ "food_processor", 40 ] ] ],
+    "components": [
+      [ [ "pine_nuts", 3 ] ],
+      [ [ "sugar", 10 ], [ "artificial_sweetener", 10 ], [ "honey_bottled", 1 ], [ "honey_glassed", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "pine_nut_meal",
+    "id_suffix": "pine_nut_meal_slow",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_VEGGI",
+    "skill_used": "cooking",
+    "difficulty": 3,
+    "skills_required": [ "survival", 2 ],
+    "time": "1 h 7 m 30 s",
+    "autolearn": true,
+    "batch_time_factors": [ 30, 1 ],
+    "qualities": [ { "id": "COOK", "level": 2 }, { "id": "CUT", "level": 1 } ],
+    "tools": [ [ [ "surface_heat", 5, "LIST" ] ], [ [ "mortar_pestle", -1 ] ] ],
+    "components": [ [ [ "pine_nuts", 1 ] ], [ [ "water", 2 ], [ "water_clean", 2 ] ] ]
+  },
+    {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "flour",
+	"id_suffix": "pine_flour_quern",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_OTHER",
+    "skill_used": "cooking",
+    "difficulty": 2,
+    "time": "45 m",
+    "charges": 15,
+    "autolearn": true,
+    "batch_time_factors": [ 83, 3 ],
+    "flags": [ "BLIND_EASY" ],
+    "tools": [ [ [ "rock_quern", -1 ], [ "clay_quern", -1 ] ] ],
+    "components": [
+      [
+        [ "pine_nut_meal", 2 ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "bread_flour",
+	"id_suffix": "pine_bread_flour_quern",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_OTHER",
+    "skill_used": "cooking",
+    "difficulty": 2,
+    "time": "5 m",
+    "charges": 20,
+    "autolearn": true,
+    "batch_time_factors": [ 50, 10 ],
+    "flags": [ "BLIND_EASY" ],
+    "tools": [ [ [ "rock_quern", -1 ], [ "clay_quern", -1 ] ] ],
+    "components": [
+      [ [ "flour", 1 ] ],
+      [
+        [ "pine_nut_meal", 2 ]
+      ]
+    ]
+  },
+  {
+    "result": "flour",
+    "type": "recipe",
+    "activity_level": "NO_EXERCISE",
+    "id_suffix": "pine_flour_blender",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_OTHER",
+    "skill_used": "cooking",
+    "difficulty": 2,
+    "charges": 15,
+    "time": "11 m 15 s",
+    "autolearn": true,
+    "batch_time_factors": [ 83, 3 ],
+    "tools": [ [ [ "food_processor", 20 ] ] ],
+    "components": [
+      [
+        [ "pine_nut_meal", 2 ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "flour",
+    "id_suffix": "pine_flour_mortar",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_OTHER",
+    "skill_used": "cooking",
+    "skills_required": [ [ "survival", 1 ] ],
+    "difficulty": 2,
+    "charges": 15,
+    "time": "1 h 7 m 30 s",
+    "autolearn": true,
+    "batch_time_factors": [ 83, 3 ],
+    "flags": [ "BLIND_EASY" ],
+    "tools": [ [ [ "mortar_pestle", -1 ] ] ],
+    "components": [
+      [
+        [ "pine_nut_meal", 2 ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "pine_nut_meal",
+	"id_suffix": "pine_nut_meal_fast",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_VEGGI",
+    "skill_used": "cooking",
+    "difficulty": 3,
+    "skills_required": [ "survival", 2 ],
+    "time": "24 m",
+    "autolearn": true,
+    "batch_time_factors": [ 50, 1 ],
+    "qualities": [ { "id": "COOK", "level": 2 }, { "id": "CUT", "level": 1 } ],
+    "tools": [ [ [ "surface_heat", 5, "LIST" ] ], [ [ "rock_quern", -1 ], [ "clay_quern", -1 ], [ "food_processor", 20 ] ] ],
+    "components": [ [ [ "pine_nuts", 1 ] ], [ [ "water", 2 ], [ "water_clean", 2 ] ] ]
   }
 ]
