@@ -111,7 +111,7 @@
     "price_postapoc": 0,
     "material": [ "wood" ],
     "symbol": ".",
-    "flags":["FIREWOOD","TINDER"]
+    "flags":["FIREWOOD","TINDER"],
     "color": "brown",
     "stack_size": 200,
     "looks_like": "tinder"
