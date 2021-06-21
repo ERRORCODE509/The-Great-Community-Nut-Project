@@ -14,5 +14,133 @@
     "qualities": [ { "id": "COOK", "level": 3 } ],
     "tools": [ [ [ "surface_heat", 8, "LIST" ] ] ],
     "components": [ [ [ "flour", 20 ] ], [ [ "yeast", 1 ] ], [ [ "water", 2 ], [ "water_clean", 2 ] ], [ [ "list_nuts_all", 5, "LIST" ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "walnut_unshelled",
+    "id_suffix": "unshell_walnut",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_OTHER",
+    "skill_used": "survival",
+    "difficulty": 0,
+    "time": "20 s",
+    "autolearn": true,
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "batch_time_factors": [ 10, 1 ],
+    "components": [
+      [ [ "walnut", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "almond_unshelled",
+    "id_suffix": "unshell_almond",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_OTHER",
+    "skill_used": "survival",
+    "difficulty": 0,
+    "time": "20 s",
+    "autolearn": true,
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "batch_time_factors": [ 10, 1 ],
+    "components": [
+      [ [ "almond", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "pistachio_unshelled",
+    "id_suffix": "unshell_pistachio",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_OTHER",
+    "skill_used": "survival",
+    "difficulty": 0,
+    "time": "20 s",
+    "autolearn": true,
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "batch_time_factors": [ 10, 1 ],
+    "components": [
+      [ [ "pistachio", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "pecan_unshelled",
+    "id_suffix": "unshell_pecan",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_OTHER",
+    "skill_used": "survival",
+    "difficulty": 0,
+    "time": "20 s",
+    "autolearn": true,
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "batch_time_factors": [ 10, 1 ],
+    "components": [
+      [ [ "pecan", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "chestnut_unshelled",
+    "id_suffix": "unshell_chestnut",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_OTHER",
+    "skill_used": "survival",
+    "difficulty": 0,
+    "time": "20 s",
+    "autolearn": true,
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "batch_time_factors": [ 10, 1 ],
+    "components": [
+      [ [ "chestnut", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "hazelnut_unshelled",
+    "id_suffix": "unshell_hazelnut",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_OTHER",
+    "skill_used": "survival",
+    "difficulty": 0,
+    "time": "20 s",
+    "autolearn": true,
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "batch_time_factors": [ 10, 1 ],
+    "components": [
+      [ [ "hazelnut", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "peanut_unshelled",
+    "id_suffix": "unshell_peanut",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_OTHER",
+    "skill_used": "survival",
+    "difficulty": 0,
+    "time": "20 s",
+    "autolearn": true,
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "batch_time_factors": [ 10, 1 ],
+    "components": [
+      [ [ "peanut", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "hickory_nut_unshelled",
+    "id_suffix": "unshell_hickory_nut",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_OTHER",
+    "skill_used": "survival",
+    "difficulty": 0,
+    "time": "20 s",
+    "autolearn": true,
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "batch_time_factors": [ 10, 1 ],
+    "components": [
+      [ [ "hickory_nut", 1 ] ]
+    ]
   }
 ]
