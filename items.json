@@ -262,5 +262,5 @@
     "vitamins": [  ],
     "freezing_point": 14,
 	"flags": [ "NUTRIENT_OVERRIDE" ]
-  },
+  }
 ]
