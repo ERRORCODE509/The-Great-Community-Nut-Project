@@ -540,7 +540,7 @@
   {
     "type": "recipe",
     "activity_level": "LIGHT_EXERCISE",
-	"result": "cooking_oil",
+	"result": "pine_nut_oil",
     "id_suffix": "cooking_oil_pine_nut",
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_OTHER",
@@ -559,18 +559,19 @@
   },
   {
     "type": "recipe",
-	"activity_level": "LIGHT_EXERCISE",
-	"result": "oil_coating",
-	"category": "CC_ARMOR",
-	"subcategory": "CSC_ARMOR_SUIT",
-	"skill_used": "survival",
-	"difficulty": 0,
-	"autolearn": true,
-	"time": "1 m",
-	"components": [ [
-	[ "cooking_oil", 20 ],
-	[ "cooking_oil2", 20 ],
-	[ "lamp_oil", 20 ]
-	] ]
-  }
+    "activity_level": "LIGHT_EXERCISE",
+	"result": "cooking_oil",
+    "id_suffix": "convert_oil_from_pine",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_OTHER",
+    "skill_used": "cooking",
+    "difficulty": 4,
+    "charges": 1,
+    "time": "5 s",
+    "autolearn": true,
+    "components": [
+      [
+        [ "pine_nut_oil", 1 ]
+      ]
+    ]
 ]
