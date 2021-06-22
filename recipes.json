@@ -536,5 +536,41 @@
 		["nut_shell_large",5]
       ]
     ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+	"result": "cooking_oil",
+    "id_suffix": "cooking_oil_pine_nut",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_OTHER",
+    "skill_used": "cooking",
+    "difficulty": 4,
+    "charges": 1,
+    "time": "10 m",
+    "autolearn": true,
+    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "COOK", "level": 2 } ],
+    "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
+    "components": [
+      [
+        [ "pine_nuts", 8 ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+	"activity_level": "LIGHT_EXERCISE",
+	"result": "oil_coating",
+	"category": "CC_ARMOR",
+	"subcategory": "CSC_ARMOR_SUIT",
+	"skill_used": "survival",
+	"difficulty": 0,
+	"autolearn": true,
+	"time": "1 m",
+	"components": [ [
+	[ "cooking_oil", 20 ],
+	[ "cooking_oil2", 20 ],
+	[ "lamp_oil", 20 ]
+	] ]
   }
 ]
