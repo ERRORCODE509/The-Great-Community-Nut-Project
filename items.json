@@ -232,7 +232,7 @@
     "symbol": "]",
     "color": "yellow",
 	"coverage":100,
-	"environmental_protection" : 10,
+	"environmental_protection" : 0,
 	"material_thickness" : 0.1,
     "covers": [ "torso", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r", "head"],
 	"countdown_interval": 100,
