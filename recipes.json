@@ -374,28 +374,6 @@
   {
     "type": "recipe",
     "result": "pine_nuts",
-    "id_suffix": "convert_to_pine",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_OTHER",
-    "skill_used": "chemistry",
-    "skills_required": [ [ "spellcraft", 1 ], [ "cooking", 2 ] ],
-    "difficulty": 0,
-    "charges": 1,
-    "time": "180 m",
-    "autolearn": true,
-    "proficiencies": [ { "proficiency": "prof_alchemy" } ],
-    "batch_time_factors": [ 50, 2 ],
-    "qualities": [
-      { "id": "MANA_INFUSE", "level": 1 }
-    ],
-    "tools": [ [ [ "surface_heat", 5, "LIST" ] ] ],
-    "components": [
-      [ [ "soy_nuts", 1 ], [ "acorns", 1 ], [ "acorn_roasted", 1 ], [ "almond", 1 ], [ "almond_unshelled", 1 ], [ "almond_roasted", 1 ], [ "pistachio", 1 ], [ "pistachio_unshelled", 1 ], [ "pistachio_roasted", 1 ], [ "cashews", 1 ], [ "pecan", 1 ], [ "pecan_unshelled", 1 ], [ "pecan_roasted", 1 ], [ "beech_nuts", 1 ], [ "coconut", 1 ], [ "walnut", 1 ], [ "walnut_unshelled", 1 ], [ "walnut_roasted", 1 ], [ "chestnut", 1 ], [ "chestnut_unshelled", 1 ], [ "chestnut_roasted", 1 ], [ "hazelnut", 1 ], [ "hazelnut_unshelled", 1 ], [ "hazelnut_roasted", 1 ], [ "peanut", 1 ], [ "peanut_unshelled", 1 ], [ "hickory_nut", 1 ], [ "hickory_nut_unshelled", 1 ], [ "hickory_nut_roasted", 1 ], [ "pinecone", 1 ] ]
-    ]
-  },
-  {
-    "type": "recipe",
-    "result": "pine_nuts",
     "id_suffix": "harvest_pinecone",
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_VEGGI",
