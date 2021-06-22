@@ -234,7 +234,7 @@
 	"coverage":100,
 	"environmental_protection" : 0,
 	"material_thickness" : 0.1,
-    "covers": [ "torso", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r", "head"],
+    "covers": [ "torso", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r", "head","mouth"],
 	"countdown_interval": 100,
     "countdown_action": { "type": "transform", "target": "" },
     "flags": [ "WATERPROOF", "AURA", "WATER_FRIENDLY","RAINPROOF","ONLY_ONE","SEMITANGIBLE" ,"FIT","NO_TAKEOFF","TRADER_AVOID","OVERSIZE","NONCONDUCTIVE"]
