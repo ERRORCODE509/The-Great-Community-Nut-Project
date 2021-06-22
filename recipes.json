@@ -449,5 +449,81 @@
       [ [ "dry_fruit", 2 ] ],
       [ [ "list_nuts_all", 2, "LIST" ] ]
     ]
+   },
+   {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "id_suffix": "trail_mix_add_salt",
+    "result": "trail_mix",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_SNACK",
+    "skill_used": "survival",
+    "difficulty": 1,
+    "time": "5 s",
+    "batch_time_factors": [ 90, 1 ],
+    "autolearn": true,
+    "flags": [ "BLIND_EASY" ],
+    "components": [
+      [ [ "trail_mix_basic", 1 ] ],
+      [ [ "salt", 5 ] ]
+    ]
+   },
+   {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "id_suffix": "trail_mix_normal",
+    "result": "trail_mix",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_SNACK",
+    "skill_used": "survival",
+    "difficulty": 1,
+    "time": "50 s",
+    "batch_time_factors": [ 90, 1 ],
+    "autolearn": true,
+    "flags": [ "BLIND_EASY" ],
+    "components": [
+      [ [ "dry_fruit", 2 ] ],
+      [ [ "list_nuts_all", 2, "LIST" ] ],
+      [ [ "salt", 5 ] ]
+    ]
+   },
+   {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "id_suffix": "trail_mix_deluxe_add_nuts",
+    "result": "trail_mix_deluxe",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_SNACK",
+    "skill_used": "survival",
+    "difficulty": 1,
+    "time": "15 s",
+    "batch_time_factors": [ 90, 1 ],
+    "autolearn": true,
+    "flags": [ "BLIND_EASY" ],
+    "components": [
+      [ [ "trail_mix", 1 ] ],
+      [ [ "list_nuts_all", 2, "LIST" ] ],
+      [ [ "salt", 5 ] ]
+    ]
+   },
+   {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "id_suffix": "trail_mix_deluxe_normal",
+    "result": "trail_mix_deluxe",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_SNACK",
+    "skill_used": "survival",
+    "difficulty": 1,
+    "time": "65 s",
+    "batch_time_factors": [ 90, 1 ],
+    "autolearn": true,
+    "flags": [ "BLIND_EASY" ],
+    "components": [
+      [ [ "dry_fruit", 2 ] ],
+      [ [ "list_nuts_all", 2, "LIST" ] ],
+      [ [ "list_nuts_all", 2, "LIST" ] ],
+      [ [ "salt", 10 ] ]
+    ]
    }
 ]
