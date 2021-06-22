@@ -238,5 +238,29 @@
     "material_thickness": 2,
     "environmental_protection": 5,
     "flags": [ "WATERPROOF", "SKINTIGHT", "WATER_FRIENDLY", "VARSIZE", "RAINPROOF", "SWIM_GOGGLES" ]
-  }
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "pine_nut_oil",
+    "name": { "str_sp": "pine nut oil" },
+    "weight": "15 g",
+    "color": "yellow",
+    "container": "jug_plastic",
+    "sealed": false,
+    "comestible_type": "DRINK",
+    "symbol": "~",
+    "quench": -4,
+    "calories": 175,
+    "description": "Thin yellow pine nut oil used for cooking.",
+    "price": 40,
+    "price_postapoc": 500,
+    "material": [ "oil", "nut" ],
+    "volume": "250 ml",
+    "charges": 16,
+    "phase": "liquid",
+    "fun": -18,
+    "vitamins": [  ],
+    "freezing_point": 14,
+	"flags": [ "NUTRIENT_OVERRIDE" ]
+  },
 ]
