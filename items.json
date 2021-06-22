@@ -134,8 +134,8 @@
     "symbol": ",",
     "color": "green",
     "name": { "str": "pine heart" },
-    "description": "Butchered from a pine creature,this heart like organ resembles a pinecone;homever,it is green like pine needle and its scales replaced with vessels that dripping pine sap instead of blood.",
-    "material": [ "flesh","veggy" ],
+    "description": "Harvested from a slain pine nut titan,this heart-like organ vaguely resembles a pinecone. However, it's color reminds you of pine needles, and its scales have been replaced with arteries that slowly ooze pine sap instead of blood.",
+    "material": [ "flesh", "nut" ],
 	"weight": "150 g",
     "volume": "500 ml",
     "to_hit": -5
@@ -215,5 +215,28 @@
     "stack_size": 5,
     "fun": 7,
     "vitamins": [ [ "vitC", 3 ], [ "calcium", 2 ] ]
+  },
+  {
+    "id": "oil_coating",
+    "type": "ARMOR",
+    "category": "armor",
+    "name": { "str": "cover yourself in oil" },
+    "description": "Oil floats on acid\n Step 1: Wait for it to acid\n Acid rain was removed...\n Step 2: Kill an acid zombie\n Step 3: Cover youself in oil\n Step 4: Step into the acid\n ᓭℸ ̣ ᒷ!¡ 5: ᓭᓵ∷ᒷᔑᒲ ╎リ !¡ᔑ╎リ ᔑᓭ ℸ ̣ ⍑ᒷ ᔑᓵ╎↸ ᓵ𝙹リᓭ⚍ᒲᒷᓭ ||𝙹⚍",
+    "weight": "4000 g",
+    "volume": "5 L",
+    "price": 0,
+    "price_postapoc": 0,
+    "to_hit": 1,
+    "bashing": 1,
+    "material": [ "oil_coating" ],
+    "symbol": "~",
+    "color": "yellow",
+    "covers": [ "torso", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r", "head", "eyes", "mouth" ],
+    "coverage": 100,
+    "encumbrance": 30,
+    "warmth": 5,
+    "material_thickness": 2,
+    "environmental_protection": 5,
+    "flags": [ "WATERPROOF", "SKINTIGHT", "WATER_FRIENDLY", "VARSIZE", "RAINPROOF", "SWIM_GOGGLES" ]
   }
 ]
