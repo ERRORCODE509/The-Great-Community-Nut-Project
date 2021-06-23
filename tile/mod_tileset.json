@@ -3,7 +3,7 @@
     "type": "mod_tileset",
     "compatibility": [ "UltimateCataclysm" ],
     "tiles-new": [
-      { "file": "/tile/spritesheet_main.png", "sprite_width": 32, "sprite_height": 32, "sprite_offset_x": 0, "sprite_offset_y": 0, "tiles": [ 
+      { "file": "/tile/spritesheet_small.png", "sprite_width": 32, "sprite_height": 32, "sprite_offset_x": 0, "sprite_offset_y": 0, "tiles": [ 
         { "id": "nut_bread", "fg": 1 },
         { "id": "nut_muffin", "fg": 0 },
         { "id": "pine_heart", "fg": 2 },
