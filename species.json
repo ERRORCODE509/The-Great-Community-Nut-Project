@@ -2,13 +2,13 @@
   {
     "type": "SPECIES",
     "id": "GOLEM",
-    "anger_triggers": [ "HURT", "PLAYER_CLOSE" ],
+    "anger_triggers": [ "HURT", "PLAYER_CLOSE", "FRIEND_DIED", "FRIEND_HURT" ],
     "fear_triggers": [ "FIRE" ]
   },
   {
     "type": "SPECIES",
     "id": "TITAN",
-    "anger_triggers": [ "HURT" ],
+    "anger_triggers": [ "HURT", "FRIEND_DIED", "FRIEND_HURT" ],
     "fear_triggers": [ "FIRE" ]
   }
 ]
