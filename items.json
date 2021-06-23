@@ -224,12 +224,6 @@
     "phase": "liquid",
     "freezing_point": 14,
 	"flags": [ "NUTRIENT_OVERRIDE","NO_INGEST" ],
-	"use_action": {
-	"need_charges": 4,
-	"need_charges_msg": "You need more oil.",
-    "type": "transform",
-    "target": "oil_coating",
-    "active": true,
-    "msg": "You cover yourself in oil."}
+	"use_action": { "type": "cast_spell", "spell_id": "covering_oil", "no_fail": true, "level": 0, "need_wielding": false }
   }
 ]
