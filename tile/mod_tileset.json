@@ -1,12 +1,17 @@
 [
   {
     "type": "mod_tileset",
-    "compatibility": [ "HitButton_iso" ],
+    "compatibility": [ "UltimateCataclysm" ],
     "tiles-new": [
-      { "file": "sees_player_hitbutton_green.png", "tiles": [ { "id": "overlay_friendly_sees_player", "fg": 0 } ] },
-      { "file": "sees_player_hitbutton_yellow.png", "tiles": [ { "id": "overlay_neutral_sees_player", "fg": 1 } ] },
-      { "file": "sees_player_hitbutton_red.png", "tiles": [ { "id": "overlay_hostile_sees_player", "fg": 2 } ] },
-      { "file": "sees_player_hitbutton_pink.png", "tiles": [ { "id": "overlay_other_sees_player", "fg": 3 } ] }
+      { "file": "nut_bread.png", "tiles": [ { "id": "nut_bread", "fg": 0 } ] },
+      { "file": "nut_muffin.png", "tiles": [ { "id": "nut_muffin", "fg": 0 } ] },
+      { "file": "pine_construct.png", "tiles": [ { "id": "mon_nut_construct", "fg": 0 } ] },
+      { "file": "pine_golem.png", "tiles": [ { "id": "mon_nut_golem", "fg": 0 } ] },
+      { "file": "pine_heart.png", "tiles": [ { "id": "pine_heart", "fg": 0 } ] },
+      { "file": "pine_titan.png", "tiles": [ { "id": "mon_nut_titan", "fg": 0 } ] },
+      { "file": "trail_mix.png", "tiles": [ { "id": "trail_mix", "fg": 0 } ] },
+      { "file": "trail_mix_basic.png", "tiles": [ { "id": "trail_mix_basic", "fg": 0 } ] },
+      { "file": "trail_mix_deluxe.png", "tiles": [ { "id": "trail_mix_deluxe", "fg": 0 } ] }
     ]
   }
 ]
