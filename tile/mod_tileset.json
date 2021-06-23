@@ -3,13 +3,13 @@
     "type": "mod_tileset",
     "compatibility": [ "UltimateCataclysm" ],
     "tiles-new": [
-      { "file": "/tile/spritesheet.png", "tiles": [ 
+      { "file": "/tile/spritesheet_main.png", "tiles": [ 
         { "id": "nut_bread", "fg": 1 } ] },
         { "id": "nut_muffin", "fg": 0 } ] },
-        { "id": "mon_nut_construct", "fg": 2 } ] },
-        { "id": "mon_nut_golem", "fg": 3 } ] },
+        { "id": "mon_nut_construct", "fg": 2, "bg": 9 } ] },
+        { "id": "mon_nut_golem", "fg": 3, "bg": 10 } ] },
         { "id": "pine_heart", "fg": 4 } ] },
-        { "id": "mon_nut_titan", "fg": 5 } ] },
+        { "id": "mon_nut_titan", "fg": 5, "bg": 11 } ] },
         { "id": "trail_mix", "fg": 6 } ] },
         { "id": "trail_mix_basic", "fg": 7 } ] },
         { "id": "trail_mix_deluxe", "fg": 8 } ] }
