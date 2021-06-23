@@ -223,13 +223,13 @@
     "price_postapoc": 50,
     "material": [ "oil", "nut" ],
     "volume": "80 ml",
+    "looks_like":"cooking_oil",
     "phase": "liquid",
     "freezing_point": 14,
 	"flags": [ "NUTRIENT_OVERRIDE","NO_INGEST" ],
 	"use_action": { 
 	"type": "cast_spell",
 	"spell_id": "covering_oil",
-	"looks_like":"cooking_oil",
 	"no_fail": true,
 	"level": 0,
 	"need_wielding": false}
