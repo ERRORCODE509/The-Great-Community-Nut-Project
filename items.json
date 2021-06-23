@@ -69,7 +69,7 @@
     "name": { "str": "pine nut milk" },
     "description": "Milk some pine nuts?  Not quite, but blend them with water, yes!  A dairy-free alternative strong in calcium!  Rival to [ALL] milk.",
 	"copy-from": "almond_milk",
-	"looks_like": "almond_milk"
+	"looks_like": "milk"
   },
   {
     "type": "COMESTIBLE",
@@ -78,7 +78,7 @@
 
     "description": "Pulp left over after making pine nut milk.  It's gritty and bland.",
 	"copy-from": "almond_pulp",
-	"looks_like": "almond_pulp"
+	"looks_like": "instant_coffee"
   },
   {
     "id": "pine_nut_ambrosia",
@@ -86,7 +86,7 @@
     "name": { "str": "pine nut ambrosia" },
     "description": "Delicious pine nut ambrosia.  A drink worthy of the gods.",
     "copy-from": "hickory_nut_ambrosia",
-	"looks_like": "hickory_nut_ambrosia"
+	"looks_like": "beer"
   },
   {
     "id": "pine_nut_butter",
@@ -102,7 +102,7 @@
     "name": { "str_sp": "cooked pine nut meal" },
     "description": "A serving of pine nuts that have been chopped and boiled in water before being thoroughly toasted until dry.  Filling and nutritious.",
 	"copy-from": "acorns_cooked",
-	"looks_like":"acorns_cooked"
+	"looks_like":"hickory_nut"
   },
   {
     "id": "nut_shell",
@@ -139,7 +139,7 @@
     "symbol": ",",
     "color": "green",
     "name": { "str": "pine heart" },
-    "description": "Harvested from a slain pine nut titan,this heart-like organ vaguely resembles a pinecone. However, it's color reminds you of pine needles, and its scales have been replaced with arteries that slowly ooze pine sap instead of blood.",
+    "description": "Harvested from a slain pine nut creature,this heart-like organ vaguely resembles a pinecone. However, it's color reminds you of pine needles, and its scales have been replaced with arteries that slowly ooze pine sap instead of blood.",
     "material": [ "flesh", "nut" ],
 	"weight": "150 g",
     "volume": "500 ml",
@@ -233,5 +233,14 @@
 	"no_fail": true,
 	"level": 0,
 	"need_wielding": false}
+  },
+  {
+    "type": "GENERIC",
+    "id": "pine_nuts",
+	"copy-from": "pine_nuts",
+    "symbol": "%",
+    "color": "green",
+    "name": { "str": "pine nuts" },
+	"looks_like":"hickory_nut"
   }
 ]
