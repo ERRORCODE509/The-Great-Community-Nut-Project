@@ -209,5 +209,18 @@
         ],
         "prob": 40
       }]
-  }]
+  },{
+    "type": "item_group",
+    "id": "trash_forest",
+    "items": [
+      [ "nut_shell", 20 ],
+	  [ "nut_shell_large", 30 ] 
+    ]},
+  {
+    "type": "item_group",
+    "id": "trash",
+    "items": [
+      [ "nut_shell", 10 ],
+[ "nut_shell_large", 15 ] 
+    ]}]
   
