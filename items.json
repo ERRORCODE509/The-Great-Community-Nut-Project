@@ -68,7 +68,8 @@
     "id": "pine_nut_milk",
     "name": { "str": "pine nut milk" },
     "description": "Milk some pine nuts?  Not quite, but blend them with water, yes!  A dairy-free alternative strong in calcium!  Rival to [ALL] milk.",
-	"copy-from": "almond_milk"
+	"copy-from": "almond_milk",
+	"looks_like": "almond_milk"
   },
   {
     "type": "COMESTIBLE",
@@ -76,28 +77,32 @@
     "name": { "str_sp": "pine nut pulp" },
 
     "description": "Pulp left over after making pine nut milk.  It's gritty and bland.",
-	"copy-from": "almond_pulp"
+	"copy-from": "almond_pulp",
+	"looks_like": "almond_pulp"
   },
   {
     "id": "pine_nut_ambrosia",
     "type": "COMESTIBLE",
     "name": { "str": "pine nut ambrosia" },
     "description": "Delicious pine nut ambrosia.  A drink worthy of the gods.",
-    "copy-from": "hickory_nut_ambrosia"
+    "copy-from": "hickory_nut_ambrosia",
+	"looks_like": "hickory_nut_ambrosia"
   },
   {
     "id": "pine_nut_butter",
     "type": "COMESTIBLE",
     "name": { "str": "pine nut butter" },
     "description": "A light brown paste that tastes very little like its namesake.  It's not bad, but it'll stick to the roof of your mouth.",
-	"copy-from": "peanutbutter"
+	"copy-from": "peanutbutter",
+	"looks_like":"peanutbutter"
   },
   {
     "type": "COMESTIBLE",
     "id": "pine_nut_meal",
     "name": { "str_sp": "cooked pine nut meal" },
     "description": "A serving of pine nuts that have been chopped and boiled in water before being thoroughly toasted until dry.  Filling and nutritious.",
-	"copy-from": "acorns_cooked"
+	"copy-from": "acorns_cooked",
+	"looks_like":"acorns_cooked"
   },
   {
     "id": "nut_shell",
@@ -224,6 +229,7 @@
 	"use_action": { 
 	"type": "cast_spell",
 	"spell_id": "covering_oil",
+	"looks_like":"cooking_oil",
 	"no_fail": true,
 	"level": 0,
 	"need_wielding": false}
