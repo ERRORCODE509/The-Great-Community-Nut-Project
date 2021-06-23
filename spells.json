@@ -1,4 +1,5 @@
-{
+[
+  {
     "id": "covering_oil",
     "type": "SPELL",
     "name": "Cover yourself in oil",
@@ -18,3 +19,4 @@
     "max_duration": 20000,
     "duration_increment": 0
   }
+]
