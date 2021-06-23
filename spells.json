@@ -1,0 +1,20 @@
+{
+    "id": "covering_oil",
+    "type": "SPELL",
+    "name": "Covering yourself with oil",
+    "description": "You cover yourself with oil.You are immune to acid damage and getting wet for short time.",
+    "valid_targets": [ "self" ],
+    "effect": "spawn_item",
+    "effect_str": "oil_coating",
+    "shape": "blast",
+    "energy_source": "FATIGUE",
+    "spell_class": "NONE",
+    "flags": [ "NO_LEGS" ],
+    "difficulty": 0,
+    "max_level": 0,
+    "base_casting_time": 0,
+    "base_energy_cost": 0,
+    "min_duration": 10000,
+    "max_duration": 20000,
+    "duration_increment": 0
+  }
