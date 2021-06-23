@@ -10,7 +10,7 @@
     "shape": "blast",
     "energy_source": "FATIGUE",
     "spell_class": "NONE",
-    "flags": [ "NO_LEGS" ],
+    "flags": [ "NO_LEGS","NO_HANDS","SILENT" ],
     "difficulty": 0,
     "max_level": 0,
     "base_casting_time": 0,
