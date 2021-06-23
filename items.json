@@ -139,7 +139,7 @@
     "symbol": ",",
     "color": "green",
     "name": { "str": "pine heart" },
-    "description": "Harvested from a slain pine nut creature,this heart-like organ vaguely resembles a pinecone. However, it's color reminds you of pine needles, and its scales have been replaced with arteries that slowly ooze pine sap instead of blood.",
+    "description": "Harvested from a slain pine nut creature, this heart-like organ vaguely resembles a pinecone. However, it's color reminds you of pine needles, and its scales have been replaced with arteries that slowly ooze pine sap rather than blood.",
     "material": [ "flesh", "nut" ],
 	"weight": "150 g",
     "volume": "500 ml",
