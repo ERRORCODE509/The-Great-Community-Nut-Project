@@ -541,19 +541,18 @@
     "type": "recipe",
     "activity_level": "LIGHT_EXERCISE",
 	"result": "pine_nut_oil",
-    "id_suffix": "cooking_oil_pine_nut",
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_OTHER",
     "skill_used": "cooking",
     "difficulty": 4,
-    "charges": 1,
+    "charges": 3,
     "time": "10 m",
     "autolearn": true,
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "COOK", "level": 2 } ],
     "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
     "components": [
       [
-        [ "pine_nuts", 6 ]
+        [ "pine_nuts", 16 ]
       ]
     ]
   },
@@ -561,17 +560,19 @@
     "type": "recipe",
     "activity_level": "LIGHT_EXERCISE",
 	"result": "cooking_oil",
-    "id_suffix": "convert_oil_from_pine",
+    "id_suffix": "cooking_oil_pine_nut",
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_OTHER",
     "skill_used": "cooking",
     "difficulty": 4,
-    "charges": 1,
-    "time": "5 s",
+    "charges": 240,
+    "time": "10 m",
     "autolearn": true,
+    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "COOK", "level": 2 } ],
+    "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
     "components": [
       [
-        [ "pine_nut_oil", 1 ]
+        [ "pine_nut_oil", 3 ]
       ]
     ]
   }
