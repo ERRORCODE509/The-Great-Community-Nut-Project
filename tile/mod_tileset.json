@@ -9,7 +9,8 @@
         { "id": "pine_heart", "fg": 2 },
         { "id": "trail_mix", "fg": 3 },
         { "id": "trail_mix_basic", "fg": 4 },
-        { "id": "trail_mix_deluxe", "fg": 5 } ] }
+        { "id": "trail_mix_deluxe", "fg": 5 },
+        { "id": "mon_nut_shambler", "fg": 7, "bg": 6 } ] }
     ]
   },
   {
