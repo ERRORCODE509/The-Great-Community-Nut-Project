@@ -1,8 +1,8 @@
 {
     "id": "covering_oil",
     "type": "SPELL",
-    "name": "Covering yourself with oil",
-    "description": "You cover yourself with oil.You are immune to acid damage and getting wet for short time.",
+    "name": "Cover yourself in oil",
+    "description": "You cover yourself with oil, giving you resistance to acid and preventing you from getting wet.",
     "valid_targets": [ "self" ],
     "effect": "spawn_item",
     "effect_str": "oil_coating",
