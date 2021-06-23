@@ -4,7 +4,7 @@
     "type": "harvest",
     "entries": [
       { "drop": "pine_nuts", "type": "flesh", "mass_ratio": 0.225 },
-      { "drop": "small_mana_crystal", "scale_num": [ 1, 1 ], "max": 2, "type": "offal" },
+      { "drop": "pine_heart", "scale_num": [ 1, 1 ], "max": 2, "type": "offal" },
       { "drop": "pinecone", "type": "bone", "mass_ratio": 0.025 }
     ]
   },
@@ -13,7 +13,7 @@
     "type": "harvest",
     "entries": [
       { "drop": "pine_nuts", "type": "flesh", "mass_ratio": 0.15 },
-      { "drop": "small_mana_crystal", "scale_num": [ 1, 1 ], "max": 5, "type": "offal" },
+      { "drop": "pine_heart", "scale_num": [ 1, 1 ], "max": 5, "type": "offal" },
       { "drop": "pinecone", "type": "bone", "mass_ratio": 0.005 }
     ]
   },
@@ -22,7 +22,7 @@
     "type": "harvest",
     "entries": [
       { "drop": "pine_nuts", "type": "flesh", "mass_ratio": 0.15 },
-      { "drop": "small_mana_crystal", "scale_num": [ 1, 1 ], "max": 1, "type": "offal" },
+      { "drop": "pine_heart", "scale_num": [ 1, 1 ], "max": 1, "type": "offal" },
       { "drop": "pinecone", "type": "bone", "mass_ratio": 0.025 }
     ]
   },
