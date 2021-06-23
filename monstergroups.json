@@ -7,7 +7,8 @@
     "monsters": [
       { "monster": "mon_nut_golem", "freq": 2, "cost_multiplier": 8 },
       { "monster": "mon_nut_titan", "freq": 1, "cost_multiplier": 12 },
-      { "monster": "mon_nut_construct", "freq": 3, "cost_multiplier": 4 }
+      { "monster": "mon_nut_construct", "freq": 4, "cost_multiplier": 4 },
+      { "monster": "mon_nut_shambler", "freq": 8, "cost_multiplier": 1, "pack_size": [ 2, 3 ] }
     ]
   }
 ]
