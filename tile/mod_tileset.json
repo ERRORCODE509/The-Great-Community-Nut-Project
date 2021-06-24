@@ -7,9 +7,9 @@
         { "id": "nut_bread", "fg": 1 },
         { "id": "nut_muffins", "fg": 0 },
         { "id": "pine_heart", "fg": 2 },
-        { "id": "trail_mix", "fg": 3 },
-        { "id": "trail_mix_basic", "fg": 4 },
-        { "id": "trail_mix_deluxe", "fg": 5 },
+        { "id": "trail_mix", "fg": 4 },
+        { "id": "trail_mix_basic", "fg": 5 },
+        { "id": "trail_mix_deluxe", "fg": 3 },
         { "id": "mon_nut_shambler", "fg": 7, "bg": 6 } ] }
     ]
   },
