@@ -28,7 +28,7 @@
     "harvest": "nut_golem",
     "biosignature": { "biosig_item": "pine_nuts", "biosig_timer": 6 },
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "NO_BREATHE", "LOUDMOVES", "BASHES" ]
+    "flags": [ "SEES", "HEARS", "NO_BREATHE", "LOUDMOVES", "BASHES", "FLAMMABLE" ]
   },
   {
     "id": "mon_nut_titan",
@@ -59,7 +59,7 @@
     "harvest": "nut_titan",
     "biosignature": { "biosig_item": "pine_nuts", "biosig_timer": 6 },
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "NO_BREATHE", "LOUDMOVES", "BASHES" ]
+    "flags": [ "SEES", "HEARS", "NO_BREATHE", "LOUDMOVES", "BASHES", "FLAMMABLE" ]
   },
   {
     "id": "mon_nut_construct",
@@ -91,7 +91,7 @@
     "harvest": "nut_construct",
     "biosignature": { "biosig_item": "pine_nuts", "biosig_timer": 6 },
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "NO_BREATHE", "BASHES", "CAN_OPEN_DOORS" ]
+    "flags": [ "SEES", "HEARS", "NO_BREATHE", "BASHES", "CAN_OPEN_DOORS", "FLAMMABLE ]
   },
   {
     "id": "mon_nut_shambler",
@@ -123,6 +123,6 @@
     "harvest": "nut_shambler",
     "biosignature": { "biosig_item": "pine_nuts", "biosig_timer": 6 },
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "NO_BREATHE" ]
+    "flags": [ "SEES", "HEARS", "NO_BREATHE", "FLAMMABLE" ]
   }
 ]
