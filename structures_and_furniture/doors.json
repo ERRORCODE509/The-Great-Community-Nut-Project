@@ -1,0 +1,85 @@
+[
+  {
+    "type": "terrain",
+    "id": "pine_door_c",
+    "name": "closed pine door",
+    "description": "A door seemingly made of pine nuts, for some reason. Somehow looks to be sturdier than most doors.",
+    "symbol": "+",
+    "color": "brown",
+    "move_cost": 0,
+    "coverage": 100,
+    "roof": "pine_roof",
+    "flags": [ "FLAMMABLE_ASH", "DOOR", "NOITEM", "CONNECT_TO_WALL", "BLOCK_WIND", "BARRICADABLE_DOOR" ],
+    "open": "t_door_o",
+    "deconstruct": {
+      "ter_set": "t_door_frame",
+      "items": [
+        { "item": "pine_nuts", "charges": 200 }
+      ]
+    },
+    "bash": {
+      "str_min": 10,
+      "str_max": 100,
+      "str_min_blocked": 18,
+      "str_max_blocked": 130,
+      "sound": "smash!",
+      "sound_fail": "whump!",
+      "ter_set": "t_door_b",
+      "items": [
+        { "item": "pine_nuts", "charges": [ 17, 66 ] }
+      ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_door_o",
+    "name": "open pine door",
+    "description": "A door seemingly made of pine nuts, for some reason. This one is open.",
+    "symbol": "'",
+    "color": "brown",
+    "move_cost": 2,
+    "roof": "pine_roof",
+    "flags": [ "FLAMMABLE_ASH", "TRANSPARENT", "FLAT", "BARRICADABLE_DOOR", "CONNECT_TO_WALL", "ROAD" ],
+    "deconstruct": {
+      "ter_set": "t_door_frame",
+      "items": [
+        { "item": "pine_nuts", "charges": 200 }
+      ]
+    },
+    "close": "pine_door_c",
+    "bash": {
+      "str_min": 7,
+      "str_max": 90,
+      "str_min_blocked": 9,
+      "str_max_blocked": 110,
+      "sound": "crash!",
+      "sound_fail": "whump!",
+      "ter_set": "pine_door_frame",
+      "items": [
+        { "item": "pine_nuts", "charges": [ 36, 129 ] }
+      ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "pine_door_frame",
+    "name": "empty pine door frame",
+    "description": "An empty door frame made from pine nuts, somehow.  Who even knows anymore.",
+    "symbol": "=",
+    "color": "brown",
+    "move_cost": 2,
+    "roof": "pine_roof",
+    "flags": [ "TRANSPARENT", "FLAT", "CONNECT_TO_WALL", "ROAD" ],
+    "bash": {
+      "str_min": 6,
+      "str_max": 25,
+      "sound": "crunch!",
+      "sound_fail": "whump!",
+      "ter_set": "pine_floor_roofless",
+      "items": [
+        { "item": "pine_nuts", "charges": [ 12, 36 ] }
+      ]
+    },
+    "deconstruct": { "ter_set": "pine_floor_roofless", "items": [ { "item": "pine_nuts", "charges": 50 } ] }
+  }
+]

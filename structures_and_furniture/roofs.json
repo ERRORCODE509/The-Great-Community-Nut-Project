@@ -1,0 +1,25 @@
+[
+  {
+    "type": "terrain",
+    "id": "pine_roof",
+    "name": "thatched roof",
+    "description": "A section of roof made out of pine boughs, similar to a thatched roof. It has an underlying structure of… pine nuts? Wait, no, that can't be right…",
+    "looks_like": "t_flat_roof",
+    "symbol": ".",
+    "color": "green",
+    "move_cost": 2,
+    "flags": [ "TRANSPARENT", "FLAMMABLE" ],
+    "bash": {
+      "str_min": 25,
+      "str_max": 190,
+      "sound": "crash!",
+      "sound_fail": "whump!",
+      "ter_set": "t_open_air",
+      "bash_below": true,
+	  "items": [
+        { "item": "pine_nuts", "charges": [ 12, 29 ] },
+		{ "item": "pine_bough", "count": [ 7, 19 ] }
+      ]
+    }
+  }
+]

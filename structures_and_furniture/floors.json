@@ -1,0 +1,43 @@
+[
+  {
+    "type": "terrain",
+    "id": "pine_floor",
+    "name": "pine floor",
+    "description": "A floor made of crushed and compacted pine nuts. Though an odd choice of flooring, it resembles something between sawdust and coarse sand.",
+    "symbol": ".",
+    "color": "brown",
+    "move_cost": 2,
+    "roof": "pine_roof",
+    "flags": [ "TRANSPARENT", "FLAMMABLE_ASH", "SUPPORTS_ROOF", "COLLAPSES", "INDOORS", "FLAT", "DIGGABLE" ],
+    "bash": {
+      "sound": "thump",
+      "ter_set": "t_null",
+      "str_min": 25,
+      "str_max": 190,
+      "str_min_supported": 25,
+      "items": [
+        { "item": "pine_nuts", "charges": [ 12, 29 ] }
+      ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "pine_floor_roofless",
+    "name": "roofless pine floor",
+    "description": "A floor made of crushed and compacted pine nuts. Though an odd choice of flooring, it resembles something between sawdust and coarse sand.",
+    "symbol": ".",
+    "color": "brown",
+    "move_cost": 2,
+    "flags": [ "TRANSPARENT", "FLAMMABLE_ASH", "FLAT", "DIGGABLE" ],
+    "bash": {
+      "sound": "thump",
+      "ter_set": "t_null",
+      "str_min": 25,
+      "str_max": 190,
+      "str_min_supported": 25,
+      "items": [
+        { "item": "pine_nuts", "charges": [ 12, 29 ] }
+      ]
+    }
+  }
+]

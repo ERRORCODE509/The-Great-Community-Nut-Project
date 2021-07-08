@@ -1,0 +1,31 @@
+[
+  {
+    "type": "item_group",
+    "id": "pine_wall_bash_results",
+    "subtype": "collection",
+    "entries": [
+      { "item": "pine_nuts", "charges": [ 24, 144 ] }
+    ]
+  },
+  {
+    "type": "terrain",
+    "id": "pine_wall",
+    "alias": [ "pine_wall_h", "pine_wall_v" ],
+    "name": "pine nut wall",
+    "description": "What? Why does this exist? What is this supposed to be? How does this even work?",
+    "symbol": "LINE_OXOX",
+    "color": "brown",
+    "move_cost": 0,
+    "coverage": 100,
+    "roof": "pine_roof",
+    "flags": [ "FLAMMABLE", "NOITEM", "SUPPORTS_ROOF", "WALL", "NO_SCENT", "AUTO_WALL_SYMBOL", "MINEABLE", "BLOCK_WIND" ],
+    "bash": {
+      "str_min": 25,
+      "str_max": 190,
+      "sound": "crash!",
+      "sound_fail": "whump!",
+      "ter_set": "pine_floor_roofless",
+      "items": "pine_wall_bash_results"
+    }
+  }
+]
