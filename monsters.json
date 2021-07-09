@@ -91,7 +91,7 @@
     "harvest": "nut_construct",
     "biosignature": { "biosig_item": "pine_nuts", "biosig_timer": 6 },
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "NO_BREATHE", "BASHES", "CAN_OPEN_DOORS", "FLAMMABLE ]
+    "flags": [ "SEES", "HEARS", "NO_BREATHE", "BASHES", "CAN_OPEN_DOORS", "FLAMMABLE" ]
   },
   {
     "id": "mon_nut_shambler",
