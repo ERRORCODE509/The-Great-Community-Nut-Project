@@ -32,7 +32,7 @@
   },
   {
     "type": "terrain",
-    "id": "t_door_o",
+    "id": "pine_door_o",
     "name": "open pine door",
     "description": "A door seemingly made of pine nuts, for some reason. This one is open.",
     "symbol": "'",
