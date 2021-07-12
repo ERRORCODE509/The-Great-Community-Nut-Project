@@ -200,13 +200,12 @@
     "to_hit": 1,
     "bashing": 1,
     "material": [ "oil_coating" ],
-    "symbol": "]",
+    "symbol": "0",
     "color": "yellow",
-	"coverage":100,
-	"environmental_protection" : 15,
-	"material_thickness" : 0.1,
-    "covers": [ "torso", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r", "head"],
-    "flags": [ "WATERPROOF", "AURA", "WATER_FRIENDLY","RAINPROOF","ONLY_ONE","SEMITANGIBLE" ,"FIT","NO_TAKEOFF","TRADER_AVOID","OVERSIZE","NONCONDUCTIVE"]
+    "environmental_protection" : 10,
+    "material_thickness" : 0.1,
+    "armor": [ { "encumbrance": 5, "coverage": 100, "covers": [ "torso", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r", "head", "eyes" ] } ]
+    "flags": [ "WATERPROOF", "AURA", "WATER_FRIENDLY", "RAINPROOF", "ONLY_ONE", "SEMITANGIBLE", "FIT", "NO_TAKEOFF", "TRADER_AVOID", "OVERSIZE", "NONCONDUCTIVE"]
   },
   {
     "type": "COMESTIBLE",
@@ -232,7 +231,7 @@
 	"spell_id": "covering_oil",
 	"no_fail": true,
 	"level": 0,
-	"need_wielding": false}
+	"need_wielding": false }
   },
   {
     "type": "GENERIC",
