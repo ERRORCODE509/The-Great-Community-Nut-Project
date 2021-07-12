@@ -204,7 +204,7 @@
     "color": "yellow",
     "environmental_protection" : 10,
     "material_thickness" : 0.1,
-    "armor": [ { "encumbrance": 5, "coverage": 100, "covers": [ "torso", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r", "head", "eyes" ] } ]
+    "armor": [ { "encumbrance": 5, "coverage": 100, "covers": [ "torso", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r", "head", "eyes" ] } ],
     "flags": [ "WATERPROOF", "AURA", "WATER_FRIENDLY", "RAINPROOF", "ONLY_ONE", "SEMITANGIBLE", "FIT", "NO_TAKEOFF", "TRADER_AVOID", "OVERSIZE", "NONCONDUCTIVE"]
   },
   {
