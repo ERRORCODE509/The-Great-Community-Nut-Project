@@ -29,7 +29,7 @@
     "biosignature": { "biosig_item": "pine_nuts", "biosig_timer": 6 },
     "corpse_type": "NORMAL",
     "message": "The %s collapses into a pile!",
-    "flags": [ "SEES", "HEARS", "NO_BREATHE", "LOUDMOVES", "BASHES", "FLAMMABLE" ]
+    "flags": [ "SEES", "HEARS", "NO_BREATHE", "LOUDMOVES", "BASHES", "FLAMMABLE", "REVIVES" ]
   },
   {
     "id": "mon_nut_titan",
@@ -61,7 +61,7 @@
     "biosignature": { "biosig_item": "pine_nuts", "biosig_timer": 6 },
     "corpse_type": "NORMAL",
     "message": "The %s is slain!",
-    "flags": [ "SEES", "HEARS", "NO_BREATHE", "LOUDMOVES", "BASHES", "FLAMMABLE" ]
+    "flags": [ "SEES", "HEARS", "NO_BREATHE", "LOUDMOVES", "BASHES", "FLAMMABLE", "REVIVES" ]
   },
   {
     "id": "mon_nut_construct",
@@ -94,7 +94,7 @@
     "biosignature": { "biosig_item": "pine_nuts", "biosig_timer": 6 },
     "corpse_type": "NORMAL",
     "message": "The %s collapses into a pile!",
-    "flags": [ "SEES", "HEARS", "NO_BREATHE", "BASHES", "CAN_OPEN_DOORS", "FLAMMABLE" ]
+    "flags": [ "SEES", "HEARS", "NO_BREATHE", "BASHES", "CAN_OPEN_DOORS", "FLAMMABLE", "REVIVES" ]
   },
   {
     "id": "mon_nut_shambler",
@@ -127,6 +127,6 @@
     "biosignature": { "biosig_item": "pine_nuts", "biosig_timer": 6 },
     "corpse_type": "NORMAL",
     "message": "The %s collapses into a pile!",
-    "flags": [ "SEES", "HEARS", "NO_BREATHE", "FLAMMABLE" ]
+    "flags": [ "SEES", "HEARS", "NO_BREATHE", "FLAMMABLE", "REVIVES" ]
   }
 ]
