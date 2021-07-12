@@ -8,7 +8,7 @@
     "effect": "spawn_item",
     "effect_str": "oil_coating",
     "shape": "blast",
-    "energy_source": "FATIGUE",
+    "energy_source": "NONE",
     "spell_class": "NONE",
     "flags": [ "NO_LEGS","NO_HANDS","SILENT" ],
     "difficulty": 0,
