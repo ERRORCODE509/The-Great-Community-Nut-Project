@@ -251,5 +251,28 @@
     "name": { "str": "pine nuts" },
     "use_action": [ "ANTIFUNGAL" ],
 	  "looks_like":"hickory_nut"
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "sauce_pesto",
+    "name": { "str_sp": "pesto" },
+    "weight": "65 g",
+    "color": "light_green",
+    "spoils_in": 144,
+    "container": "jar_glass_sealed",
+    "comestible_type": "FOOD",
+    "symbol": "%",
+    "healthy": 1,
+    "calories": 244,
+    "description": "Olive oil, basil, garlic, pine nuts.  Simple and delicious.",
+    "price": 230,
+    "price_postapoc": 300,
+    "material": [ "veggy", "nut", "garlic" ],
+    "volume": "250 ml",
+    "charges": 4,
+    "phase": "liquid",
+    "use_action": [ "ANTIFUNGAL" ],
+    "vitamins": [ [ "vitA", 7 ], [ "calcium", 11 ], [ "iron", 3 ] ],
+    "fun": 4
   }
 ]
