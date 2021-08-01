@@ -19,6 +19,7 @@
     "charges": 14,
     "flags": [ "EATEN_HOT" ],
     "fun": 3,
+    "use_action": [ "ANTIFUNGAL" ],
     "vitamins": [ [ "vitC", 1 ], [ "calcium", 10 ], [ "iron", 6 ] ]
   },
   {
@@ -40,6 +41,7 @@
     "volume": "35 ml",
     "stack_size": 24,
     "fun": 3,
+    "use_action": [ "ANTIFUNGAL" ],
     "vitamins": [ [ "vitC", 3 ], [ "calcium", 2 ], [ "iron", 2 ] ]
   },
   {
@@ -61,6 +63,7 @@
     "volume": "300 ml",
     "stack_size": 5,
     "fun": 2,
+    "use_action": [ "ANTIFUNGAL" ],
     "vitamins": [ [ "vitC", 3 ], [ "calcium", 2 ] ]
   },
 {
@@ -69,16 +72,17 @@
     "name": { "str": "pine nut milk" },
     "description": "Milk some pine nuts?  Not quite, but blend them with water, yes!  A dairy-free alternative strong in calcium!  Rival to [ALL] milk.",
 	"copy-from": "almond_milk",
+	"use_action": [ "ANTIFUNGAL" ],
 	"looks_like": "milk"
   },
   {
     "type": "COMESTIBLE",
     "id": "pine_nut_pulp",
     "name": { "str_sp": "pine nut pulp" },
-
     "description": "Pulp left over after making pine nut milk.  It's gritty and bland.",
-	"copy-from": "almond_pulp",
-	"looks_like": "instant_coffee"
+  	"copy-from": "almond_pulp",
+  	"use_action": [ "ANTIFUNGAL" ],
+	  "looks_like": "instant_coffee"
   },
   {
     "id": "pine_nut_ambrosia",
@@ -86,23 +90,26 @@
     "name": { "str": "pine nut ambrosia" },
     "description": "Delicious pine nut ambrosia.  A drink worthy of the gods.",
     "copy-from": "hickory_nut_ambrosia",
-	"looks_like": "beer"
+    "use_action": [ "ANTIFUNGAL" ],
+	  "looks_like": "beer"
   },
   {
     "id": "pine_nut_butter",
     "type": "COMESTIBLE",
     "name": { "str": "pine nut butter" },
     "description": "A light brown paste that tastes very little like its namesake.  It's not bad, but it'll stick to the roof of your mouth.",
-	"copy-from": "peanutbutter",
-	"looks_like":"peanutbutter"
+	  "copy-from": "peanutbutter",
+	  "use_action": [ "ANTIFUNGAL" ],
+	  "looks_like":"peanutbutter"
   },
   {
     "type": "COMESTIBLE",
     "id": "pine_nut_meal",
     "name": { "str_sp": "cooked pine nut meal" },
     "description": "A serving of pine nuts that have been chopped and boiled in water before being thoroughly toasted until dry.  Filling and nutritious.",
-	"copy-from": "acorns_cooked",
-	"looks_like":"hickory_nut"
+	  "copy-from": "acorns_cooked",
+	  "use_action": [ "ANTIFUNGAL" ],
+	  "looks_like":"hickory_nut"
   },
   {
     "id": "nut_shell",
@@ -122,13 +129,13 @@
    {
     "type": "GENERIC",
     "id": "pinecone",
-	"copy-from": "pinecone",
+  	"copy-from": "pinecone",
     "symbol": ",",
     "color": "brown",
     "name": { "str": "pinecone" },
     "description": "A spiny pod from a pine tree.  Dry seeds rattle around inside when you shake it.",
     "material": [ "wood" ],
-	"weight": "90 g",
+	  "weight": "90 g",
     "volume": "250 ml",
     "to_hit": -2,
     "flags": [ "FIREWOOD","TINDER" ]
@@ -141,7 +148,7 @@
     "name": { "str": "pine heart" },
     "description": "Harvested from a slain pine nut creature, this heart-like organ vaguely resembles a pinecone. However, it's color reminds you of pine needles, and its scales have been replaced with arteries that slowly ooze pine sap rather than blood.",
     "material": [ "flesh", "nut" ],
-	"weight": "150 g",
+	  "weight": "750 g",
     "volume": "500 ml",
     "to_hit": -5
   },
@@ -164,6 +171,7 @@
     "volume": "305 ml",
     "stack_size": 5,
     "fun": 5,
+    "use_action": [ "ANTIFUNGAL" ],
     "vitamins": [ [ "vitC", 3 ], [ "calcium", 2 ] ]
   },
   {
@@ -185,6 +193,7 @@
     "volume": "305 ml",
     "stack_size": 5,
     "fun": 7,
+    "use_action": [ "ANTIFUNGAL" ],
     "vitamins": [ [ "vitC", 3 ], [ "calcium", 2 ] ]
   },
   {
@@ -236,10 +245,11 @@
   {
     "type": "GENERIC",
     "id": "pine_nuts",
-	"copy-from": "pine_nuts",
+	  "copy-from": "pine_nuts",
     "symbol": "%",
     "color": "green",
     "name": { "str": "pine nuts" },
-	"looks_like":"hickory_nut"
+    "use_action": [ "ANTIFUNGAL" ],
+	  "looks_like":"hickory_nut"
   }
 ]
