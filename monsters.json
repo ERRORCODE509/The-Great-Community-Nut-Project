@@ -118,8 +118,10 @@
     "regenerates": 1,
     "path_settings": { "avoid_traps": true },
     "biosignature": { "biosig_item": "pine_nuts", "biosig_timer": 6 },
+    "harvest": "exempt",
+    "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
     "flags": [ "SEES", "HEARS", "NO_BREATHE", "BASHES", "CAN_OPEN_DOORS", "FLAMMABLE" ]
-  }
+  },
   {
     "id": "mon_nut_shambler",
     "type": "MONSTER",
