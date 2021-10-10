@@ -23,7 +23,7 @@
     "id": "BACKNODES",
     "name": { "str": "Back Nodes" },
     "points": 1,
-    "description": "You have some nodes in your back, they seem useless.",
+    "description": "You have some nodes along your back. They seem useless.",
     "category": [ "PINE_MUTATION" ]
   },
   {
@@ -31,7 +31,7 @@
     "id": "PINENODES",
     "name": { "str": "Pinecone Nodes" },
     "points": 3,
-    "description": "You have some nodes in your back that produces pinecones, you could get some pinecones at the cost of stamina",
+    "description": "You have some nodes along your back that produce pinecones. You could probably get some pinecones at the cost of stamina.",
     "prereqs": [ "BACKNODES" ],
     "category": [ "PINE_MUTATION" ],
     "active": true,
@@ -52,7 +52,7 @@
   {
     "type": "mutation",
     "id": "PINECOMMUN",
-    "name": { "str": "Friends With The Pine" },
+    "name": { "str": "Ally Of The Nut" },
     "points": 3,
     "description": "You have managed you seem to be able to understand pine abominations, they can clearly see that and are now friendly to you.",
     "category": [ "PINE_MUTATION" ],
