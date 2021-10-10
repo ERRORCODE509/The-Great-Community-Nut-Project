@@ -3,7 +3,7 @@
     "id": "summoncons",
     "type": "SPELL",
     "name": "Summon Pine Constructs",
-    "description": "Summons a bunch of pine nut construct",
+    "description": "Summons a bunch of pine nut constructs",
     "valid_targets": [ "ground" ],
     "min_damage": 1,
     "max_damage": 3,
