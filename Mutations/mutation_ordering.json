@@ -1,0 +1,10 @@
+[
+  {
+    "type": "overlay_order",
+    "overlay_ordering": [
+      { "id": [ "BARKSKINPINE" ], "order": 500 },
+      { "id": [ "BACKNODES" ], "order": 1500 },
+      { "id": [ "PINENODES", "PINESUM", "PINECOMMUN" ], "order": 400 }
+    ]
+  }
+]
