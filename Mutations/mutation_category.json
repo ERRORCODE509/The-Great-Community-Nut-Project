@@ -1,0 +1,15 @@
+[
+  {
+    "type": "mutation_category",
+    "id": "PINE_MUTATION",
+    "name": "Pine",
+    "threshold_mut": "THRESH_PINE_MUTATION",
+    "mutagen_message": "For a brief moment, you feel enlightened.",
+    "iv_message": "Your body is cleansed of heresy.",
+	"iv_morale": 30,
+    "iv_morale_max": 120,
+	"iv_hunger": 3,
+	"iv_thirst": 3,
+    "memorial_message": "Returned to Nut."
+  }
+]

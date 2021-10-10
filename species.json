@@ -2,7 +2,7 @@
   {
     "type": "SPECIES",
     "id": "GOLEM",
-    "anger_triggers": [ "HURT", "PLAYER_CLOSE", "FRIEND_DIED", "FRIEND_ATTACKED" ],
+    "anger_triggers": [ "HURT", "FRIEND_DIED", "FRIEND_ATTACKED" ],
     "fear_triggers": [ "FIRE" ]
   },
   {
@@ -10,5 +10,10 @@
     "id": "TITAN",
     "anger_triggers": [ "HURT", "FRIEND_DIED", "FRIEND_ATTACKED" ],
     "fear_triggers": [ "FIRE" ]
+  },
+  {
+    "type": "SPECIES",
+    "id": "PINEABON",
+    "anger_triggers": [ "HURT", "FRIEND_DIED", "FRIEND_ATTACKED" ]
   }
 ]
