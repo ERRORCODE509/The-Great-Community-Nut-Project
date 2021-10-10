@@ -197,26 +197,6 @@
     "vitamins": [ [ "vitC", 3 ], [ "calcium", 2 ] ]
   },
   {
-    "id": "oil_coating",
-    "type": "ARMOR",
-    "category": "armor",
-    "name": { "str": "oil coating" },
-    "description": "Oil floats on acid\n Step 1: Wait for it to acid\n Acid rain was removed...\n Step 2: Kill an acid zombie\n Step 3: Cover youself in oil\n Step 4: Step into the acid\n ᓭℸ ̣ ᒷ!¡ 5: ᓭᓵ∷ᒷᔑᒲ ╎リ !¡ᔑ╎リ ᔑᓭ ℸ ̣ ⍑ᒷ ᔑᓵ╎↸ ᓵ𝙹リᓭ⚍ᒲᒷᓭ ||𝙹⚍",
-    "weight": "1 mg",
-    "volume": "1 ml",
-    "price": 0,
-    "price_postapoc": 0,
-    "to_hit": 1,
-    "bashing": 1,
-    "material": [ "oil_coating" ],
-    "symbol": "0",
-    "color": "yellow",
-    "environmental_protection" : 10,
-    "material_thickness" : 0.1,
-    "armor": [ { "encumbrance": 5, "coverage": 100, "covers": [ "torso", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r", "head", "eyes" ] } ],
-    "flags": [ "WATERPROOF", "AURA", "WATER_FRIENDLY", "RAINPROOF", "ONLY_ONE", "SEMITANGIBLE", "FIT", "NO_TAKEOFF", "TRADER_AVOID", "OVERSIZE", "NONCONDUCTIVE"]
-  },
-  {
     "type": "COMESTIBLE",
 	"comestible_type": "DRINK",
     "id": "pine_nut_oil",
