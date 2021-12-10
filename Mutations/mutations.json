@@ -6,7 +6,7 @@
     "points": 2,
     "visibility": 3,
     "ugliness": 1,
-    "description": "Parts of your skin has become a large mass of bark.  This provides a somewhat strong armor, and adds some fire resistance.",
+    "description": "Parts of your skin have become a large mass of bark.  This provides exceptional protection, and adds some fire resistance.",
     "types": [ "SKIN", "skin_tone" ],
     "category": [ "PINE_MUTATION" ],
 	"flags": [ "HEATPROOF" ],
@@ -31,7 +31,7 @@
     "id": "PINENODES",
     "name": { "str": "Pinecone Nodes" },
     "points": 3,
-    "description": "You have some nodes along your back that produce pinecones. You could probably get some pinecones at the cost of stamina.",
+    "description": "You have some nodes along your back that produce pinecones. You could probably get some pinecones with a bit of effort.",
     "prereqs": [ "BACKNODES" ],
     "category": [ "PINE_MUTATION" ],
     "active": true,
@@ -44,7 +44,7 @@
     "id": "PINESUM",
     "name": { "str": "Call Of The Pine" },
     "points": 3,
-    "description": "You have managed to understand the great pine, now, you could call some of the pine constructs to fight with you",
+    "description": "You have managed to understand the Great Pine. You could call upon some of the pine constructs to fight with you",
     "category": [ "PINE_MUTATION" ],
 	"prereqs": [ "PINECOMMUN" ],
 	"spells_learned": [ [ "summoncons", 1 ] ]
@@ -54,7 +54,7 @@
     "id": "PINECOMMUN",
     "name": { "str": "Ally Of The Nut" },
     "points": 3,
-    "description": "You have managed you seem to be able to understand pine abominations, they can clearly see that and are now friendly to you.",
+    "description": "You are one with the Pine. Most pine abominations are now friendly to you.",
     "category": [ "PINE_MUTATION" ],
     "ignored_by": [ "PINEABON" ]
   }
