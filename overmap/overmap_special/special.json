@@ -1,0 +1,19 @@
+[
+  {
+    "type": "overmap_special",
+    "id": "Great Pine Tree",
+    "overmaps": [
+      { "point": [ 0, 0, 0 ], "overmap": "pinestump" },
+      { "point": [ 0, 0, 1 ], "overmap": "pinebody1" },
+      { "point": [ 0, 0, 2 ], "overmap": "pinebody2" },
+	  { "point": [ 0, 0, 3 ], "overmap": "pinebody3" },
+	  { "point": [ 0, 0, 4 ], "overmap": "pinehead1" },
+	  { "point": [ 0, 0, 5 ], "overmap": "pinehead2" }
+    ],
+    "locations": [ "forest" ],
+    "city_distance": [ 25, -1 ],
+    "city_sizes": [ 0, 20 ],
+    "occurrences": [ 0, 1 ],
+    "flags": [ "CLASSIC" ]
+  }
+]

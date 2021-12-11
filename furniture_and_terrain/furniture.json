@@ -1,0 +1,78 @@
+[
+  {
+    "type": "furniture",
+    "id": "f_pine_counter",
+    "name": "pine counter",
+    "description": "A strong pine counter, it was just like a regular counter, but it is a bit stronger",
+    "symbol": "#",
+    "color": "brown",
+    "move_cost_mod": 2,
+    "coverage": 60,
+    "required_str": 20,
+    "flags": [ "TRANSPARENT", "ORGANIC", "MOUNTABLE", "SHORT", "FLAT_SURF" ],
+    "connects_to": "COUNTER",
+    "deconstruct": {"items": [{ "item": "pine_nuts", "charges": 200 }]},
+    "crafting_pseudo_item": "medium_surface_pseudo",
+    "bash": {
+      "str_min": 30,
+      "str_max": 40,
+      "sound": "smash!",
+      "sound_fail": "whump.",
+      "items": [
+        { "item": "pine_nuts", "charges": 200 }
+      ]
+    },
+    "examine_action": "workbench",
+    "workbench": { "multiplier": 1.1, "mass": 200000, "volume": "75L" }
+  },
+  {
+    "type": "furniture",
+    "id": "f_pine_table",
+    "name": "pine table",
+    "description": "Sit down when you eat your pine nuts!",
+    "symbol": "#",
+    "color": "brown",
+    "move_cost_mod": 2,
+    "coverage": 50,
+    "required_str": 20,
+    "crafting_pseudo_item": "medium_surface_pseudo",
+    "flags": [ "TRANSPARENT", "ORGANIC", "MOUNTABLE", "SHORT", "FLAT_SURF" ],
+    "deconstruct": {"items": [{ "item": "pine_nuts", "charges": 200 }]},
+    "bash": {
+      "str_min": 45,
+      "str_max": 50,
+      "sound": "smash!",
+      "sound_fail": "whump.",
+      "items": [
+        { "item": "pine_nuts", "charges": 200 }
+      ]
+    },
+    "examine_action": "workbench",
+    "workbench": { "multiplier": 1.1, "mass": 200000, "volume": "75L" }
+  },
+  {
+    "type": "furniture",
+    "id": "f_pine_chair",
+    "name": "pine chair",
+    "symbol": "#",
+    "description": "A simple pine chair.",
+    "color": "brown",
+    "move_cost_mod": 1,
+    "coverage": 40,
+    "comfort": 1,
+    "floor_bedding_warmth": -1500,
+    "bonus_fire_warmth_feet": 1000,
+    "required_str": 20,
+    "flags": [ "TRANSPARENT", "ORGANIC", "MOUNTABLE", "CAN_SIT", "ALIGN_WORKBENCH" ],
+    "deconstruct": {"items": [{ "item": "pine_nuts", "charges": 200 }]},
+    "bash": {
+      "str_min": 6,
+      "str_max": 20,
+      "sound": "smash!",
+      "sound_fail": "whump.",
+      "items": [
+        { "item": "pine_nuts", "charges": 200 }
+      ]
+    }
+  }
+]
