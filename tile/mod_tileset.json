@@ -4,12 +4,12 @@
     "compatibility": [ "UltimateCataclysm" ],
     "tiles-new": [
       { "file": "/tile/spritesheet_small.png", "sprite_width": 32, "sprite_height": 32, "sprite_offset_x": 0, "sprite_offset_y": 0, "tiles": [ 
-        { "id": "nut_muffins", "fg": 0 },
-        { "id": "nut_bread", "fg": 1 },
+        { "id": "nut_bread", "fg": 0 },
+        { "id": "nut_muffins", "fg": 1 },
         { "id": "pine_heart", "fg": 2 },
+		{ "id": "trail_mix_deluxe", "fg": 3 },
         { "id": "trail_mix", "fg": 4 },
         { "id": "trail_mix_basic", "fg": 5 },
-        { "id": "trail_mix_deluxe", "fg": 3 },
         { "id": "mon_nut_shambler", "fg": 6 } ] }
     ]
   },
@@ -38,4 +38,3 @@
     ]
   }
 ]
-        
