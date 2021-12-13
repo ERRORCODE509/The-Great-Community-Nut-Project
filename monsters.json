@@ -166,7 +166,7 @@
   {
     "id": "mon_nut_stalker",
     "type": "MONSTER",
-    "name": { "str": "pine nut shambler" },
+    "name": { "str": "pine nut stalker" },
     "description": "A slinking mass of pine nuts, taking the form of some alien creature. It watches you closely, waiting for it's time to strike. It seems to melt with the shapes around it ",
     "default_faction": "pine_nut_abomination",
     "species": [ "GOLEM", "PINEABON" ],
