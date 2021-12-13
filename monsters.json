@@ -175,7 +175,7 @@
     "volume": "82 L",
     "weight": "39 kg",
     "hp": 61,
-    "speed": 130,
+    "speed": 140,
     "material": [ "nut" ],
     "symbol": "S",
     "color": "brown",
@@ -194,6 +194,6 @@
     "path_settings": { "avoid_traps": true },
     "harvest": "nut_stalker",
     "biosignature": { "biosig_item": "pine_nuts", "biosig_timer": 6 },
-    "flags": [ "SEES", "HEARS", "NO_BREATHE", "FLAMMABLE", "REVIVES", "WEBWALK", "SLUDGEPROOF", "NOHEAD", "COLDPROOF", "CLIMBS", "NO_FUNG_DMG", "STUN_IMMUNE" ]
+    "flags": [ "SEES", "HEARS", "NO_BREATHE", "FLAMMABLE", "REVIVES", "WEBWALK", "SLUDGEPROOF", "NOHEAD", "COLDPROOF", "CLIMBS", "NO_FUNG_DMG" ]
   }
 ]
