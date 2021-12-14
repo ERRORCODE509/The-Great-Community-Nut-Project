@@ -31,5 +31,22 @@
       { "drop": "pine_nuts", "type": "flesh", "mass_ratio": 0.15 },
       { "drop": "pinecone", "type": "bone", "mass_ratio": 0.025 }
     ]
+  },
+  {
+    "id": "nut_stalker",
+    "type": "harvest",
+    "entries": [
+      { "drop": "pine_nuts", "type": "flesh", "mass_ratio": 0.25 },
+      { "drop": "pinecone", "type": "bone", "mass_ratio": 0.04 },
+      { "drop": "pine_heart", "scale_num": [ 1, 1 ], "max": 2, "type": "offal" }
+    ]
+  },
+  {
+    "id": "nut_mass",
+    "type": "harvest",
+    "entries": [
+      { "drop": "pine_nuts", "type": "flesh", "mass_ratio": 0.14 },
+      { "drop": "pinecone", "scale_num": [ 1, 1 ], "max": 1, "type": "offal" }
+    ]
   }
 ]
