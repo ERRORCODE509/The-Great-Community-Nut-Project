@@ -14,6 +14,13 @@
   {
     "type": "SPECIES",
     "id": "PINEABON",
-    "anger_triggers": [ "HURT", "FRIEND_DIED", "FRIEND_ATTACKED" ]
+    "anger_triggers": [ "HURT", "FRIEND_DIED", "FRIEND_ATTACKED" ],
+    "fear_triggers": [ "FIRE" ]
+  },
+  {
+    "type": "SPECIES",
+    "id": "STALKER",
+    "anger_triggers": [ "HURT", "FRIEND_DIED", "FRIEND_ATTACKED", "STALK", "PLAYER_CLOSE" ],
+    "fear_triggers": [ "FIRE" ]
   }
 ]
