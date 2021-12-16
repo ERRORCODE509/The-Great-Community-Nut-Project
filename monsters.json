@@ -233,7 +233,7 @@
     "name": { "str": "flaming pine nut mass" },
     "description": "A hovering mass of pine nuts, seemingly orbiting a central object. Though it's hard to tell, it seems to be a pinecone. The entire entity is on fire, and it would probably be best if you run away.",
     "default_faction": "pine_nut_abomination",
-    "species": [ "PINEABON" ],
+    "species": [ "PINEABON_FIRE" ],
     "bodytype": "blob",
     "size": "small",
     "volume": "12 L",
