@@ -134,7 +134,7 @@
     "id": "mon_nut_shambler",
     "type": "MONSTER",
     "name": { "str": "pine nut shambler" },
-    "description": "A seemingly living pile of pine nuts, about the size of a large dog. It, as the name implies, shambles towards you surprisingly quickly.",
+    "description": "A seemingly living pile of pine nuts, roughly the size of a large dog. It, as the name implies, shambles towards you surprisingly quickly.",
     "default_faction": "pine_nut_abomination",
     "species": [ "PINEABON" ],
     "bodytype": "blob",
@@ -158,7 +158,6 @@
     "vision_day": 15,
     "vision_night": 5,
     "regenerates": 1,
-    "path_settings": { "avoid_traps": true },
     "harvest": "nut_shambler",
     "biosignature": { "biosig_item": "pine_nuts", "biosig_timer": 6 },
     "flags": [ "SEES", "HEARS", "NO_BREATHE", "FLAMMABLE", "REVIVES", "WEBWALK", "SLUDGEPROOF", "NOHEAD", "COLDPROOF", "CLIMBS", "NO_FUNG_DMG", "STUN_IMMUNE", "GROUP_BASH", "GUILT", "HIT_AND_RUN", "SWARMS" ]
