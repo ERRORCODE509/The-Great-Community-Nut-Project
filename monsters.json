@@ -225,7 +225,7 @@
     "regenerates": 1,
     "harvest": "nut_mass",
     "biosignature": { "biosig_item": "pine_nuts", "biosig_timer": 6 },
-    "flags": [ "SEES", "HEARS", "NO_BREATHE", "FLAMMABLE", "REVIVES", "WEBWALK", "SLUDGEPROOF", "NOHEAD", "COLDPROOF", "CLIMBS", "NO_FUNG_DMG", "GUILT", "FLIES" ]
+    "flags": [ "SEES", "HEARS", "NO_BREATHE", "FLAMMABLE", "REVIVES", "WEBWALK", "SLUDGEPROOF", "NOHEAD", "COLDPROOF", "CLIMBS", "NO_FUNG_DMG", "GUILT", "FLIES", "ATTACK_UPPER" ]
   },
   {
     "id": "mon_nut_mass_fire",
@@ -238,12 +238,12 @@
     "size": "small",
     "volume": "12 L",
     "weight": "5 kg",
-    "hp": 20,
-    "speed": 75,
+    "hp": 18,
+    "speed": 85,
     "material": [ "nut" ],
     "symbol": "o",
-    "color": "brown",
-    "aggression": 10,
+    "color": "orange",
+    "aggression": 100,
     "morale": 100,
     "armor_bash": 1,
     "armor_cut": 1,
@@ -255,6 +255,7 @@
     "regenerates": 1,
     "harvest": "nut_mass",
     "biosignature": { "biosig_item": "pine_nuts", "biosig_timer": 6 },
-    "flags": [ "SEES", "HEARS", "NO_BREATHE", "FLAMMABLE", "REVIVES", "WEBWALK", "SLUDGEPROOF", "NOHEAD", "COLDPROOF", "CLIMBS", "NO_FUNG_DMG", "GUILT", "FLIES" ]
-  }
+    "flags": [ "SEES", "HEARS", "NO_BREATHE", "FLAMMABLE", "REVIVES", "WEBWALK", "SLUDGEPROOF", "NOHEAD", "CLIMBS", "NO_FUNG_DMG", "GUILT", "FLIES", "ATTACK_UPPER", "FIREY", "SWARMS" ],
+    "death_function": { "corpse_type": "NO_CORPSE","message": "The %s dies!", "effect": { "id": "death_flame_explosion", "hit_self": true } }
+   }
 ]
