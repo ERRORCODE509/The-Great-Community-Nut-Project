@@ -253,6 +253,7 @@
     "melee_damage": [ { "damage_type": "heat", "amount": 4 } ],
     "vision_day": 6,
     "vision_night": 3,
+    "luminance": 15,
     "regenerates": 1,
     "harvest": "exempt",
     "biosignature": { "biosig_item": "pine_nuts", "biosig_timer": 6 },
