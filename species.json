@@ -8,7 +8,7 @@
   {
     "type": "SPECIES",
     "id": "PINEABON",
-    "anger_triggers": [ "HURT", "FRIEND_DIED", "FRIEND_ATTACKED" ],
+    "anger_triggers": [ "HURT", "FRIEND_DIED", "FRIEND_ATTACKED", "PLAYER_CLOSE", "PLAYER_WEAK", "SOUND" ],
     "fear_triggers": [ "FIRE" ]
   },
   {
