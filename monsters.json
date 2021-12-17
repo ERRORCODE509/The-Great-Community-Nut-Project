@@ -30,6 +30,7 @@
     "harvest": "nut_golem",
     "biosignature": { "biosig_item": "pine_nuts", "biosig_timer": 6 },
     "flags": [ "SEES", "HEARS", "NO_BREATHE", "LOUDMOVES", "BASHES", "FLAMMABLE", "REVIVES", "WEBWALK", "SLUDGEPROOF", "NOHEAD", "COLDPROOF", "NO_FUNG_DMG", "STUN_IMMUNE", "GUILT" ],
+    "bleed_rate": 0,
     "death_function": { "corpse_type": "NORMAL", "message": "The %s crumbles!" }
   },
   {
@@ -64,6 +65,7 @@
     "harvest": "nut_titan",
     "biosignature": { "biosig_item": "pine_nuts", "biosig_timer": 6 },
     "flags": [ "SEES", "HEARS", "NO_BREATHE", "LOUDMOVES", "BASHES", "FLAMMABLE", "REVIVES", "WEBWALK", "SLUDGEPROOF", "NOHEAD", "COLDPROOF", "DESTROYS", "NO_FUNG_DMG", "STUN_IMMUNE", "GUILT" ],
+    "bleed_rate": 0,
     "death_function": { "corpse_type": "NORMAL", "message": "The %s crumbles dramatically!" }
   },
   {
@@ -98,6 +100,7 @@
     "harvest": "nut_construct",
     "biosignature": { "biosig_item": "pine_nuts", "biosig_timer": 6 },
     "flags": [ "SEES", "HEARS", "NO_BREATHE", "BASHES", "CAN_OPEN_DOORS", "FLAMMABLE", "REVIVES", "WEBWALK", "SLUDGEPROOF", "NOHEAD", "COLDPROOF", "NO_FUNG_DMG", "STUN_IMMUNE", "GUILT" ],
+    "bleed_rate": 0,
     "death_function": { "corpse_type": "NORMAL", "message": "The %s crumbles!" }
   },
   {
@@ -131,6 +134,7 @@
     "path_settings": { "avoid_traps": true },
     "harvest": "exempt",
     "flags": [ "SEES", "HEARS", "NO_BREATHE", "CAN_OPEN_DOORS", "FLAMMABLE", "WEBWALK", "SLUDGEPROOF", "NOHEAD", "COLDPROOF", "NO_FUNG_DMG", "STUN_IMMUNE", "GUILT" ],
+    "bleed_rate": 0,
     "death_function": { "corpse_type": "NORMAL", "message": "The %s melts away." }
   },
   {
@@ -164,6 +168,7 @@
     "harvest": "nut_shambler",
     "biosignature": { "biosig_item": "pine_nuts", "biosig_timer": 6 },
     "flags": [ "SEES", "HEARS", "NO_BREATHE", "FLAMMABLE", "REVIVES", "WEBWALK", "SLUDGEPROOF", "NOHEAD", "COLDPROOF", "CLIMBS", "NO_FUNG_DMG", "STUN_IMMUNE", "GROUP_BASH", "GUILT", "HIT_AND_RUN", "SWARMS" ],
+    "bleed_rate": 0,
     "death_function": { "corpse_type": "NORMAL", "message": "The %s crumbles!" }
   },
   {
@@ -199,6 +204,7 @@
     "biosignature": { "biosig_item": "pine_nuts", "biosig_timer": 6 },
     "tracks_scent": [ "sc_human" ],
     "flags": [ "SEES", "HEARS", "NO_BREATHE", "FLAMMABLE", "REVIVES", "WEBWALK", "SLUDGEPROOF", "NOHEAD", "COLDPROOF", "CLIMBS", "NO_FUNG_DMG", "SMELLS", "GOODHEARING", "GUILT", "KEENNOSE", "CAMOUFLAGE", "CAN_OPEN_DOORS", "NIGHT_INVISIBILITY", "WATER_CAMOUFLAGE", "HIT_AND_RUN" ],
+    "bleed_rate": 0,
     "death_function": { "corpse_type": "NORMAL", "message": "The %s crumbles!" }
   },
   {
@@ -230,6 +236,7 @@
     "harvest": "nut_mass",
     "biosignature": { "biosig_item": "pine_nuts", "biosig_timer": 6 },
     "flags": [ "SEES", "HEARS", "NO_BREATHE", "FLAMMABLE", "REVIVES", "WEBWALK", "SLUDGEPROOF", "NOHEAD", "COLDPROOF", "CLIMBS", "NO_FUNG_DMG", "GUILT", "FLIES", "ATTACK_UPPER" ],
+    "bleed_rate": 0,
     "death_function": { "corpse_type": "NORMAL", "message": "The %s crumbles!" }
   },
   {
@@ -263,6 +270,7 @@
     "harvest": "exempt",
     "biosignature": { "biosig_item": "pine_nuts", "biosig_timer": 6 },
     "flags": [ "SEES", "HEARS", "NO_BREATHE", "FLAMMABLE", "REVIVES", "WEBWALK", "SLUDGEPROOF", "NOHEAD", "CLIMBS", "NO_FUNG_DMG", "GUILT", "FLIES", "ATTACK_UPPER", "FIREY", "SWARMS" ],
+    "bleed_rate": 0,
     "death_function": { "corpse_type": "NO_CORPSE", "message": "The %s erupts in a firey explosion!", "effect": { "id": "death_flame_explosion", "hit_self": true } }
    }
 ]
