@@ -29,7 +29,8 @@
     "regenerates": 1,
     "harvest": "nut_golem",
     "biosignature": { "biosig_item": "pine_nuts", "biosig_timer": 6 },
-    "flags": [ "SEES", "HEARS", "NO_BREATHE", "LOUDMOVES", "BASHES", "FLAMMABLE", "REVIVES", "WEBWALK", "SLUDGEPROOF", "NOHEAD", "COLDPROOF", "NO_FUNG_DMG", "STUN_IMMUNE", "GUILT" ]
+    "flags": [ "SEES", "HEARS", "NO_BREATHE", "LOUDMOVES", "BASHES", "FLAMMABLE", "REVIVES", "WEBWALK", "SLUDGEPROOF", "NOHEAD", "COLDPROOF", "NO_FUNG_DMG", "STUN_IMMUNE", "GUILT" ],
+    "death_function": { "corpse_type": "NORMAL", "message": "The %s crumbles!" }
   },
   {
     "id": "mon_nut_titan",
@@ -62,7 +63,8 @@
     "regenerates": 2,
     "harvest": "nut_titan",
     "biosignature": { "biosig_item": "pine_nuts", "biosig_timer": 6 },
-    "flags": [ "SEES", "HEARS", "NO_BREATHE", "LOUDMOVES", "BASHES", "FLAMMABLE", "REVIVES", "WEBWALK", "SLUDGEPROOF", "NOHEAD", "COLDPROOF", "DESTROYS", "NO_FUNG_DMG", "STUN_IMMUNE", "GUILT" ]
+    "flags": [ "SEES", "HEARS", "NO_BREATHE", "LOUDMOVES", "BASHES", "FLAMMABLE", "REVIVES", "WEBWALK", "SLUDGEPROOF", "NOHEAD", "COLDPROOF", "DESTROYS", "NO_FUNG_DMG", "STUN_IMMUNE", "GUILT" ],
+    "death_function": { "corpse_type": "NORMAL", "message": "The %s crumbles dramatically!" }
   },
   {
     "id": "mon_nut_construct",
@@ -95,7 +97,8 @@
     "path_settings": { "avoid_traps": true },
     "harvest": "nut_construct",
     "biosignature": { "biosig_item": "pine_nuts", "biosig_timer": 6 },
-    "flags": [ "SEES", "HEARS", "NO_BREATHE", "BASHES", "CAN_OPEN_DOORS", "FLAMMABLE", "REVIVES", "WEBWALK", "SLUDGEPROOF", "NOHEAD", "COLDPROOF", "NO_FUNG_DMG", "STUN_IMMUNE", "GUILT" ]
+    "flags": [ "SEES", "HEARS", "NO_BREATHE", "BASHES", "CAN_OPEN_DOORS", "FLAMMABLE", "REVIVES", "WEBWALK", "SLUDGEPROOF", "NOHEAD", "COLDPROOF", "NO_FUNG_DMG", "STUN_IMMUNE", "GUILT" ],
+    "death_function": { "corpse_type": "NORMAL", "message": "The %s crumbles!" }
   },
   {
     "id": "mon_nut_construct_dummy",
@@ -127,8 +130,8 @@
     "regenerates": 1,
     "path_settings": { "avoid_traps": true },
     "harvest": "exempt",
-    "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
-    "flags": [ "SEES", "HEARS", "NO_BREATHE", "CAN_OPEN_DOORS", "FLAMMABLE", "WEBWALK", "SLUDGEPROOF", "NOHEAD", "COLDPROOF", "NO_FUNG_DMG", "STUN_IMMUNE", "GUILT" ]
+    "flags": [ "SEES", "HEARS", "NO_BREATHE", "CAN_OPEN_DOORS", "FLAMMABLE", "WEBWALK", "SLUDGEPROOF", "NOHEAD", "COLDPROOF", "NO_FUNG_DMG", "STUN_IMMUNE", "GUILT" ],
+    "death_function": { "corpse_type": "NORMAL", "message": "The %s melts away." }
   },
   {
     "id": "mon_nut_shambler",
@@ -160,7 +163,8 @@
     "regenerates": 1,
     "harvest": "nut_shambler",
     "biosignature": { "biosig_item": "pine_nuts", "biosig_timer": 6 },
-    "flags": [ "SEES", "HEARS", "NO_BREATHE", "FLAMMABLE", "REVIVES", "WEBWALK", "SLUDGEPROOF", "NOHEAD", "COLDPROOF", "CLIMBS", "NO_FUNG_DMG", "STUN_IMMUNE", "GROUP_BASH", "GUILT", "HIT_AND_RUN", "SWARMS" ]
+    "flags": [ "SEES", "HEARS", "NO_BREATHE", "FLAMMABLE", "REVIVES", "WEBWALK", "SLUDGEPROOF", "NOHEAD", "COLDPROOF", "CLIMBS", "NO_FUNG_DMG", "STUN_IMMUNE", "GROUP_BASH", "GUILT", "HIT_AND_RUN", "SWARMS" ],
+    "death_function": { "corpse_type": "NORMAL", "message": "The %s crumbles!" }
   },
   {
     "id": "mon_nut_stalker",
@@ -194,7 +198,8 @@
     "harvest": "nut_stalker",
     "biosignature": { "biosig_item": "pine_nuts", "biosig_timer": 6 },
     "tracks_scent": [ "sc_human" ],
-    "flags": [ "SEES", "HEARS", "NO_BREATHE", "FLAMMABLE", "REVIVES", "WEBWALK", "SLUDGEPROOF", "NOHEAD", "COLDPROOF", "CLIMBS", "NO_FUNG_DMG", "SMELLS", "GOODHEARING", "GUILT", "KEENNOSE", "CAMOUFLAGE", "CAN_OPEN_DOORS", "NIGHT_INVISIBILITY", "WATER_CAMOUFLAGE", "HIT_AND_RUN" ]
+    "flags": [ "SEES", "HEARS", "NO_BREATHE", "FLAMMABLE", "REVIVES", "WEBWALK", "SLUDGEPROOF", "NOHEAD", "COLDPROOF", "CLIMBS", "NO_FUNG_DMG", "SMELLS", "GOODHEARING", "GUILT", "KEENNOSE", "CAMOUFLAGE", "CAN_OPEN_DOORS", "NIGHT_INVISIBILITY", "WATER_CAMOUFLAGE", "HIT_AND_RUN" ],
+    "death_function": { "corpse_type": "NORMAL", "message": "The %s crumbles!" }
   },
   {
     "id": "mon_nut_mass",
@@ -224,7 +229,8 @@
     "regenerates": 1,
     "harvest": "nut_mass",
     "biosignature": { "biosig_item": "pine_nuts", "biosig_timer": 6 },
-    "flags": [ "SEES", "HEARS", "NO_BREATHE", "FLAMMABLE", "REVIVES", "WEBWALK", "SLUDGEPROOF", "NOHEAD", "COLDPROOF", "CLIMBS", "NO_FUNG_DMG", "GUILT", "FLIES", "ATTACK_UPPER" ]
+    "flags": [ "SEES", "HEARS", "NO_BREATHE", "FLAMMABLE", "REVIVES", "WEBWALK", "SLUDGEPROOF", "NOHEAD", "COLDPROOF", "CLIMBS", "NO_FUNG_DMG", "GUILT", "FLIES", "ATTACK_UPPER" ],
+    "death_function": { "corpse_type": "NORMAL", "message": "The %s crumbles!" }
   },
   {
     "id": "mon_nut_mass_fire",
