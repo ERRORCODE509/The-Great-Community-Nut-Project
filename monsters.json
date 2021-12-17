@@ -131,7 +131,7 @@
     "vision_day": 30,
     "vision_night": 30,
     "regenerates": 1,
-    "path_settings": { "avoid_traps": true },
+    "path_settings": { "avoid_traps": true, "avoid_sharp": true },
     "harvest": "exempt",
     "flags": [ "SEES", "HEARS", "NO_BREATHE", "CAN_OPEN_DOORS", "FLAMMABLE", "WEBWALK", "SLUDGEPROOF", "NOHEAD", "COLDPROOF", "NO_FUNG_DMG", "STUN_IMMUNE", "GUILT" ],
     "bleed_rate": 0,
