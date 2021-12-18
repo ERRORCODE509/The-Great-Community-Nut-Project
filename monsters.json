@@ -61,7 +61,7 @@
     "melee_cut": 20,
     "vision_day": 40,
     "vision_night": 15,
-    "regenerates": 2,
+    "regenerates": 3,
     "harvest": "nut_titan",
     "biosignature": { "biosig_item": "pine_nuts", "biosig_timer": 6 },
     "flags": [ "SEES", "HEARS", "NO_BREATHE", "LOUDMOVES", "BASHES", "FLAMMABLE", "REVIVES", "WEBWALK", "SLUDGEPROOF", "NOHEAD", "COLDPROOF", "DESTROYS", "NO_FUNG_DMG", "STUN_IMMUNE", "GUILT" ],
