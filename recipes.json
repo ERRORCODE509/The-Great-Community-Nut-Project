@@ -504,7 +504,7 @@
       [ [ "salt", 10 ] ]
     ]
    },
-  {
+   {
     "type": "recipe",
     "activity_level": "LIGHT_EXERCISE",
     "result": "tinder",
@@ -531,16 +531,16 @@
         [ "birchbark", 1 ],
         [ "willowbark", 1 ],
         [ "straw_pile", 1 ],
-		["pinecone",1],
-		["nut_shell",10],
-		["nut_shell_large",5]
+	    	["pinecone",1],
+	    	["nut_shell",10],
+    		["nut_shell_large",5]
       ]
     ]
   },
   {
     "type": "recipe",
     "activity_level": "LIGHT_EXERCISE",
-	"result": "pine_nut_oil",
+	  "result": "pine_nut_oil",
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_OTHER",
     "skill_used": "cooking",
@@ -552,24 +552,22 @@
     "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
     "components": [
       [
-        [ "pine_nuts", 16 ]
+        [ "pine_nuts", 18 ]
       ]
     ]
   },
   {
     "type": "recipe",
     "activity_level": "LIGHT_EXERCISE",
-	"result": "cooking_oil",
+	  "result": "cooking_oil",
     "id_suffix": "cooking_oil_pine_nut",
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_OTHER",
     "skill_used": "cooking",
-    "difficulty": 4,
-    "charges": 240,
-    "time": "10 m",
+    "difficulty": 0,
+    "charges": 120,
+    "time": "1 s",
     "autolearn": true,
-    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "COOK", "level": 2 } ],
-    "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
     "components": [
       [
         [ "pine_nut_oil", 3 ]
