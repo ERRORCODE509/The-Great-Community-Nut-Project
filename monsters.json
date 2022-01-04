@@ -277,15 +277,15 @@
     "id": "mon_nut_swimmer",
     "type": "MONSTER",
     "name": { "str": "pine nut swimmer" },
-    "description": "This amorphous cloud of pine nuts moves swiftly below the surface of the water. It's practically impossible to see at a distance.",
+    "description": "This amorphous cloud of pine nuts moves swiftly and stealthily below the surface of the water. It's practically impossible to see at a distance.",
     "default_faction": "pine_nut_abomination",
     "species": [ "PINEABON_FIRE" ],
     "bodytype": "blob",
     "size": "small",
-    "volume": "19 L",
+    "volume": "21 L",
     "weight": "6 kg",
-    "hp": 23,
-    "speed": 100,
+    "hp": 22,
+    "speed": 105,
     "material": [ "nut" ],
     "symbol": "s",
     "color": "brown",
@@ -301,8 +301,8 @@
     "regenerates": 1,
     "harvest": "nut_swimmer",
     "biosignature": { "biosig_item": "pine_nuts", "biosig_timer": 6 },
-    "flags": [ "SEES", "HEARS", "NO_BREATHE", "FLAMMABLE", "REVIVES", "WEBWALK", "SLUDGEPROOF", "NOHEAD", "CLIMBS", "NO_FUNG_DMG", "GUILT", "SWARMS" ],
+    "flags": [ "SEES", "HEARS", "NO_BREATHE", "FLAMMABLE", "REVIVES", "WEBWALK", "SLUDGEPROOF", "NOHEAD", "NO_FUNG_DMG", "GUILT", "SWARMS", "AQUATIC", "SWIMS", "WATER_CAMOUFLAGE" ],
     "bleed_rate": 0,
-    "death_function": { "corpse_type": "NORMAL", "message": "The %s crumbles!" }
+    "death_function": { "corpse_type": "NORMAL", "message": "The %s dissipates!" }
    }
 ]
