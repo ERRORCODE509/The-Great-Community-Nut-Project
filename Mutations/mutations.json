@@ -3,18 +3,18 @@
     "type": "mutation",
     "id": "BARKSKINPINE",
     "name": { "str": "Pine Bark" },
-    "points": 2,
-    "visibility": 3,
+    "points": 8,
+    "visibility": 4,
     "ugliness": 1,
     "description": "Parts of your skin have become a large mass of bark.  This provides exceptional protection, and adds some fire resistance.",
     "types": [ "SKIN", "skin_tone" ],
     "category": [ "PINE_MUTATION" ],
-	"flags": [ "HEATPROOF" ],
+    "flags": [ "HEATPROOF" ],
     "armor": [
       {
         "parts": [ "torso", "head", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r", "mouth" ],
         "cut": 8,
-		"bash":6
+        "bash":6
       }
     ]
   },
@@ -22,7 +22,7 @@
     "type": "mutation",
     "id": "BACKNODES",
     "name": { "str": "Back Nodes" },
-    "points": 1,
+    "points": 0,
     "description": "You have some nodes along your back. They seem useless.",
     "category": [ "PINE_MUTATION" ]
   },
@@ -37,23 +37,25 @@
     "active": true,
     "cost": 120,
     "fatigue": true,
-    "spawn_item": { "type": "pinecone", "message": "You force the nodes to produce a pinecone" }
+    "spawn_item": { "type": "pinecone", "message": "You force the nodes to produce a pinecone." }
   },
   {
     "type": "mutation",
     "id": "PINESUM",
     "name": { "str": "Call Of The Pine" },
-    "points": 3,
+    "points": 6,
     "description": "You have managed to understand the Great Pine. You could call upon some of the pine constructs to fight with you",
     "category": [ "PINE_MUTATION" ],
-	"prereqs": [ "PINECOMMUN" ],
-	"spells_learned": [ [ "summoncons", 1 ] ]
+    "prereqs": [ "PINECOMMUN" ],
+    "spells_learned": [ 
+      [ "summoncons", 1 ] 
+    ]
   },
   {
     "type": "mutation",
     "id": "PINECOMMUN",
     "name": { "str": "Ally Of The Nut" },
-    "points": 3,
+    "points": 4,
     "description": "You are one with the Pine. Most pine abominations are now friendly to you.",
     "category": [ "PINE_MUTATION" ],
     "ignored_by": [ "PINEABON" ]
