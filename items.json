@@ -71,9 +71,9 @@
     "id": "pine_nut_milk",
     "name": { "str": "pine nut milk" },
     "description": "Milk some pine nuts?  Not quite, but blend them with water, yes!  A dairy-free alternative strong in calcium!  Rival to most other consumable fluids.",
-	"copy-from": "almond_milk",
-	"use_action": [ "ANTIFUNGAL" ],
-	"looks_like": "milk"
+    "copy-from": "almond_milk",
+    "use_action": [ "ANTIFUNGAL" ],
+    "looks_like": "milk"
   },
   {
     "type": "COMESTIBLE",
@@ -91,7 +91,7 @@
     "description": "Delicious pine nut ambrosia.  A drink worthy of the gods.",
     "copy-from": "hickory_nut_ambrosia",
     "use_action": [ "ANTIFUNGAL" ],
-	  "looks_like": "beer"
+    "looks_like": "beer"
   },
   {
     "id": "pine_nut_butter",
@@ -122,7 +122,7 @@
     "price_postapoc": 0,
     "material": [ "wood" ],
     "symbol": ".",
-    "flags":["FIREWOOD","TINDER"],
+    "flags":[ "FIREWOOD", "TINDER"],
     "color": "brown",
     "looks_like": "tinder"
    },
@@ -138,7 +138,7 @@
 	  "weight": "90 g",
     "volume": "250 ml",
     "to_hit": -2,
-    "flags": [ "FIREWOOD","TINDER" ]
+    "flags": [ "FIREWOOD", "TINDER" ]
   },
   {
     "type": "GENERIC",
@@ -198,7 +198,7 @@
   },
   {
     "type": "COMESTIBLE",
-	"comestible_type": "DRINK",
+    "comestible_type": "DRINK",
     "id": "pine_nut_oil",
     "name": { "str_sp": "pine nut oil" },
     "weight": "15 g",
@@ -214,13 +214,13 @@
     "looks_like":"cooking_oil",
     "phase": "liquid",
     "freezing_point": 14,
-	"flags": [ "NUTRIENT_OVERRIDE", "NO_INGEST" ],
-	"use_action": { 
-	"type": "cast_spell",
-	"spell_id": "covering_oil",
-	"no_fail": true,
-	"level": 0,
-	"need_wielding": false }
+    "flags": [ "NUTRIENT_OVERRIDE", "NO_INGEST" ],
+    "use_action": { 
+    "type": "cast_spell",
+    "spell_id": "covering_oil",
+    "no_fail": true,
+    "level": 0,
+    "need_wielding": false }
   },
   {
     "type": "GENERIC",
@@ -228,7 +228,7 @@
 	  "copy-from": "pine_nuts",
     "symbol": "%",
     "color": "green",
-    "name": { "str": "pine nuts" },
+    "name": { "str_sp": "pine nuts" },
     "use_action": [ "ANTIFUNGAL" ],
 	  "looks_like":"hickory_nut"
   },
