@@ -4,8 +4,6 @@ As you can tell, this mod is all about nuts. Though there is a heavy emphasis on
 
 This mod is under active development, and all features are subject to change. More content ***will*** be added.
 
-There is a GitHub project board where you can monitor progress here: https://github.com/users/ERRORCODE509/projects/2
-
 Found a bug or want to suggest a feature? Setup an issue for it here: https://github.com/ERRORCODE509/The-Great-Community-Nut-Project/issues
 
 Made a change that you want included in the mod? Setup a pull request here: https://github.com/ERRORCODE509/The-Great-Community-Nut-Project/pulls
