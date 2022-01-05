@@ -1,6 +1,9 @@
-[{
+[
+  {
     "type": "material",
     "id": "oil_coating",
     "name": "Oil coating",
     "copy-from": "hydrocarbons",
-	"acid_resist": 30}]
+    "acid_resist": 30
+  }
+]
