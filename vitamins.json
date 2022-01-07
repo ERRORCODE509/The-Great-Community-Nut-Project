@@ -5,7 +5,7 @@
     "vit_type": "vitamin",
     "name": { "str": "Element-119" },
     "min": 0,
-    "max": 6000,
-    "rate": "3 m"
+    "max": 1000,
+    "rate": "1 m"
   }
 ]
