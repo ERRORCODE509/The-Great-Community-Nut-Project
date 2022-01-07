@@ -6,6 +6,8 @@
     "name": { "str": "Element-119" },
     "min": 0,
     "max": 1000,
-    "rate": "1 m"
+    "rate": "1 m",
+    "excess": "119_poison",
+    "disease_excess": [ [ 100, 200 ], [ 201, 350 ], [ 351, 600 ] ]
   }
 ]
