@@ -1,1 +1,11 @@
-
+[
+  {
+    "id": "element119",
+    "type": "vitamin",
+    "vit_type": "vitamin",
+    "name": { "str": "Element-119" },
+    "min": 0,
+    "max": 6000,
+    "rate": "3 m"
+  }
+]
