@@ -5,8 +5,8 @@
     "name": [ "Element-119 Uptake", "Element-119 Absorption", "Element-119 Saturation" ],
     "desc": [ 
       "A small amount of Element-119 has made its way into your bloodstream, and has begun having strange effects on your body.",
-      "A significant amount of Element-119 has made its way into your bloodstream and a few of your organs. It has mixed effects on your body.",
-      "An extreme amount of Element-119 has made its way into your bloodstream and organs, primarily your brain. The effects, while mixed, are more beneficial than detreimental."
+      "A significant amount of Element-119 has made its way into your bloodstream and a few of your organs.  It has mixed effects on your body.",
+      "An extreme amount of Element-119 has made its way into your bloodstream and organs, primarily your brain.  The effects, while mixed, are more beneficial than detreimental."
     ],
     "apply_message": "You feel odd.",
     "remove_message": "You feel as though you've lost part of yourself.",
