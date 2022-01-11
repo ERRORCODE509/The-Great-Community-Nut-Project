@@ -254,7 +254,7 @@
     "speed": 85,
     "material": [ "nut" ],
     "symbol": "o",
-    "color": "orange",
+    "color": "red",
     "aggression": 100,
     "morale": 100,
     "armor_bash": 1,
