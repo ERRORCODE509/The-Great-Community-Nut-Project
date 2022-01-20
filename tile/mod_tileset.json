@@ -48,7 +48,7 @@
         "sprite_offset_x": -16,
         "sprite_offset_y": -32,
         "tiles": [
-        { "id": "mon_nut_golem", "fg": 0, "bg": 1 }
+          { "id": "mon_nut_golem", "fg": 0, "bg": 1 }
         ]
       }
     ]
@@ -64,10 +64,9 @@
         "sprite_offset_x": -16,
         "sprite_offset_y": -64,
         "tiles": [
-        { "id": "mon_nut_titan", "fg": 0, "bg": 1 }
+          { "id": "mon_nut_titan", "fg": 0, "bg": 1 }
         ] 
       }
     ]
   }
 ]
-        

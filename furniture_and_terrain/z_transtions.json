@@ -1,0 +1,42 @@
+[
+  {
+    "type": "terrain",
+    "id": "pine_stair_down",
+    "name": "Pine Down Ramp",
+    "description": "A natural pine down ramp",
+    "symbol": ">",
+    "color": "brown",
+    "move_cost": 2,
+    "flags": [ "TRANSPARENT", "GOES_DOWN", "PLACE_ITEM" ],
+    "bash": {
+      "str_min": 90,
+      "str_max": 100,
+      "sound": "crunch!",
+      "sound_fail": "whump!",
+      "ter_set": "t_open_air",
+      "items": [
+        { "item": "pine_nuts", "count": [ 0, 2 ] }
+      ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "pine_stair_up",
+    "name": "Pine Up Ramp",
+    "description": "A natural pine Up ramp",
+    "symbol": "<",
+    "color": "brown",
+    "move_cost": 2,
+    "flags": [ "TRANSPARENT", "GOES_UP", "PLACE_ITEM" ],
+    "bash": {
+      "str_min": 90,
+      "str_max": 100,
+      "sound": "crunch!",
+      "sound_fail": "whump!",
+      "ter_set": "t_open_air",
+      "items": [
+        { "item": "pine_nuts", "count": [ 0, 2 ] }
+      ]
+    }
+  }
+]
