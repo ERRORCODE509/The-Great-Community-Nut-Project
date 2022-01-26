@@ -3,38 +3,70 @@
     "type": "mod_tileset",
     "compatibility": [ "UltimateCataclysm" ],
     "tiles-new": [
-      { "file": "/tile/spritesheet_small.png", "sprite_width": 32, "sprite_height": 32, "sprite_offset_x": 0, "sprite_offset_y": 0, "tiles": [ 
-        { "id": "nut_bread", "fg": 0 },
-        { "id": "nut_muffins", "fg": 1 },
-        { "id": "pine_heart", "fg": 2 },
-		{ "id": "trail_mix_deluxe", "fg": 3 },
-        { "id": "trail_mix", "fg": 4 },
-        { "id": "trail_mix_basic", "fg": 5 },
-        { "id": "mon_nut_shambler", "fg": 6 } ] }
+      { 
+        "file": "/tile/spritesheet_small.png", 
+        "sprite_width": 32,
+        "sprite_height": 32, 
+        "sprite_offset_x": 0,
+        "sprite_offset_y": 0, 
+        "tiles": [ 
+          { "id": "nut_bread", "fg": 1 },
+          { "id": "nut_muffins", "fg": 0 },
+          { "id": "pine_heart", "fg": 2 },
+          { "id": "trail_mix", "fg": 4 },
+          { "id": "trail_mix_basic", "fg": 5 },
+          { "id": "trail_mix_deluxe", "fg": 3 },
+          { "id": "mon_nut_shambler", "fg": 7, "bg": 6 }
+        ]
+      }
     ]
   },
   {
     "type": "mod_tileset",
     "compatibility": [ "UltimateCataclysm" ],
     "tiles-new": [
-      { "file": "/tile/spritesheet_tall.png", "sprite_width": 32, "sprite_height": 64, "sprite_offset_x": 0, "sprite_offset_y": -32, "tiles": [
-        { "id": "mon_nut_construct", "fg": 0, "bg": 1 } ] }
+      {
+        "file": "/tile/spritesheet_tall.png", 
+        "sprite_width": 32,
+        "sprite_height": 64,
+        "sprite_offset_x": 0,
+        "sprite_offset_y": -32,
+        "tiles": [
+          { "id": "mon_nut_construct", "fg": 0, "bg": 1 }
+        ]
+      }
     ]
   },
   {
     "type": "mod_tileset",
     "compatibility": [ "UltimateCataclysm" ],
     "tiles-new": [
-      { "file": "/tile/spritesheet_large.png", "sprite_width": 64, "sprite_height": 64, "sprite_offset_x": -16, "sprite_offset_y": -32, "tiles": [
-        { "id": "mon_nut_golem", "fg": 0, "bg": 1 } ] }
+      {
+        "file": "/tile/spritesheet_large.png",
+        "sprite_width": 64,
+        "sprite_height": 64,
+        "sprite_offset_x": -16,
+        "sprite_offset_y": -32,
+        "tiles": [
+          { "id": "mon_nut_golem", "fg": 0, "bg": 1 }
+        ]
+      }
     ]
   },
   {
     "type": "mod_tileset",
     "compatibility": [ "UltimateCataclysm" ],
     "tiles-new": [
-      { "file": "/tile/spritesheet_giant.png", "sprite_width": 64, "sprite_height": 96, "sprite_offset_x": -16, "sprite_offset_y": -64, "tiles": [
-        { "id": "mon_nut_titan", "fg": 0, "bg": 1 } ] }
+      {
+        "file": "/tile/spritesheet_giant.png",
+        "sprite_width": 64,
+        "sprite_height": 96,
+        "sprite_offset_x": -16,
+        "sprite_offset_y": -64,
+        "tiles": [
+          { "id": "mon_nut_titan", "fg": 0, "bg": 1 }
+        ] 
+      }
     ]
   }
 ]

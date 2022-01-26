@@ -2,34 +2,65 @@
   {
     "id": "nut_golem",
     "type": "harvest",
+    "message": "You dig through the remains and collect anything edible.  <nut_golem_harvest>",
     "entries": [
       { "drop": "pine_nuts", "type": "flesh", "mass_ratio": 0.225 },
-      { "drop": "pinecone", "type": "bone", "mass_ratio": 0.025 }
+      { "drop": "pine_nuts", "type": "bone", "mass_ratio": 0.01 }
     ]
   },
   {
     "id": "nut_titan",
     "type": "harvest",
+    "message": "You laboriously dig through the remains and collect anything worthwhile.  <nut_titan_harvest>",
     "entries": [
-      { "drop": "pine_nuts", "type": "flesh", "mass_ratio": 0.15 },
-      { "drop": "pine_heart", "scale_num": [ 1, 1 ], "max": 5, "type": "offal" },
+      { "drop": "pine_nuts", "type": "flesh", "mass_ratio": 0.1625 },
+      { "drop": "pine_heart", "scale_num": [ 4, 7 ], "max": 7, "type": "offal" },
       { "drop": "pinecone", "type": "bone", "mass_ratio": 0.005 }
     ]
   },
   {
     "id": "nut_construct",
     "type": "harvest",
+    "message": "You dig through the remains and collect anything edible.  <nut_construct_harvest>",
     "entries": [
       { "drop": "pine_nuts", "type": "flesh", "mass_ratio": 0.15 },
-      { "drop": "pinecone", "type": "bone", "mass_ratio": 0.025 }
+      { "drop": "pine_nuts", "type": "bone", "mass_ratio": 0.01 }
     ]
   },
   {
     "id": "nut_shambler",
     "type": "harvest",
+    "message": "You quickly look through the remains and take anything edible.  <nut_shambler_harvest>",
     "entries": [
       { "drop": "pine_nuts", "type": "flesh", "mass_ratio": 0.15 },
-      { "drop": "pinecone", "type": "bone", "mass_ratio": 0.025 }
+      { "drop": "pine_nuts", "type": "bone", "mass_ratio": 0.01 }
+    ]
+  },
+  {
+    "id": "nut_stalker",
+    "type": "harvest",
+    "message": "You carefully comb through the remains and collect anything valuable.  <nut_stalker_harvest>",
+    "entries": [
+      { "drop": "pine_nuts", "type": "flesh", "mass_ratio": 0.2625 },
+      { "drop": "pine_nuts", "type": "bone", "mass_ratio": 0.02 },
+      { "drop": "pine_heart", "scale_num": [ 1, 2 ], "max": 1, "type": "offal" }
+    ]
+  },
+  {
+    "id": "nut_mass",
+    "type": "harvest",
+    "message": "You swiftly collect anything of value from the remains. <nut_mass_harvest>",
+    "entries": [
+      { "drop": "pine_nuts", "type": "flesh", "mass_ratio": 0.135 },
+      { "drop": "pinecone", "scale_num": [ 1, 1 ], "max": 1, "type": "offal" }
+    ]
+  },
+  {
+    "id": "nut_swimmer",
+    "type": "harvest",
+    "message": "You pickup anything that remains of the creature.  <nut_swimmer_harvest>",
+    "entries": [
+      { "drop": "pine_nuts", "type": "flesh", "mass_ratio": 0.1375 }
     ]
   }
 ]

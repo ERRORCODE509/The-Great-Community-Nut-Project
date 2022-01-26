@@ -1,0 +1,34 @@
+[
+  {
+    "type": "scent_type",
+    "id": "sc_human",
+    "receptive_species": [
+      "MAMMAL",
+      "BIRD",
+      "AMPHIBIAN",
+      "REPTILE",
+      "FISH",
+      "MUTANT",
+      "NETHER",
+      "SLIME",
+      "FUNGUS",
+      "INSECT",
+      "CENTIPEDE",
+      "SPIDER",
+      "PLANT",
+      "MOLLUSK",
+      "WORM",
+      "ZOMBIE",
+      "ROBOT",
+      "HORROR",
+      "ABERRATION",
+      "HALLUCINATION",
+      "HUMAN",
+      "UNKNOWN",
+      "TITAN",
+      "PINEABON",
+      "STALKER",
+      "PINEABON_FIRE"
+    ]
+  }
+]

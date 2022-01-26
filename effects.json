@@ -1,0 +1,34 @@
+[
+  {
+    "type": "effect_type",
+    "id": "119_poison",
+    "name": [ "Element-119 Uptake", "Element-119 Absorption", "Element-119 Saturation" ],
+    "desc": [ 
+      "A small amount of Element-119 has made its way into your bloodstream, and has begun having strange effects on your body.",
+      "A significant amount of Element-119 has made its way into your bloodstream and a few of your organs.  It has mixed effects on your body.",
+      "An extreme amount of Element-119 has made its way into your bloodstream and organs, primarily your brain.  The effects, while mixed, are more beneficial than detreimental."
+    ],
+    "apply_message": "You feel odd.",
+    "remove_message": "You feel as though you've lost part of yourself.",
+    "max_intensity": 3,
+    "base_mods": {
+      "pain_max_val": [ 30 ],
+      "pain_chance": [ 300 ],
+      "pain_min": [ 1 ],
+      "pain_max": [ 3 ],
+      "h_mod_min": [ 3 ],
+      "h_mod_min_val": [ 0 ],
+      "h_mod_chance": [ 900 ]
+    },
+    "scaling_mods": {
+      "h_mod_min": [ 3 ],
+      "str_mod": [ 2 ],
+      "dex_mod": [ 1 ],
+      "int_mod": [ 0.5 ],
+      "per_mod": [ -1.25 ],
+      "speed_mod": [ 10 ]
+    },
+    "rating": "mixed",
+    "blood_analysis_description": "Element-119 Poisoning"
+  }
+]

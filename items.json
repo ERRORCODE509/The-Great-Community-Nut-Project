@@ -10,17 +10,17 @@
     "comestible_type": "FOOD",
     "symbol": "o",
     "healthy": 2,
-    "calories": 84,
-    "description": "Healthy and filling bread, with added nuts.",
+    "calories": 284,
+    "description": "Healthy and filling bread, with added nuts for both texture and flavor.",
     "price": 47,
     "price_postapoc": 100,
     "material": [ "wheat", "nut" ],
     "volume": "250 ml",
     "charges": 14,
     "flags": [ "EATEN_HOT" ],
-    "fun": 3,
+    "fun": 4,
     "use_action": [ "ANTIFUNGAL" ],
-    "vitamins": [ [ "vitC", 1 ], [ "calcium", 10 ], [ "iron", 6 ] ]
+    "vitamins": [ [ "vitC", 1 ], [ "calcium", 10 ], [ "iron", 6 ], [ "element119", 10 ] ]
   },
   {
     "type": "COMESTIBLE",
@@ -33,8 +33,8 @@
     "symbol": ".",
     "quench": -1,
     "healthy": 2,
-    "calories": 45,
-    "description": "Baked muffins containing nuts. Good, but leaves something to be desired.",
+    "calories": 92,
+    "description": "Baked muffins containing nuts.  Good, but leaves something to be desired.",
     "price": 50,
     "price_postapoc": 7,
     "material": [ "wheat", "nut" ],
@@ -42,7 +42,7 @@
     "stack_size": 24,
     "fun": 3,
     "use_action": [ "ANTIFUNGAL" ],
-    "vitamins": [ [ "vitC", 3 ], [ "calcium", 2 ], [ "iron", 2 ] ]
+    "vitamins": [ [ "vitC", 3 ], [ "calcium", 2 ], [ "iron", 2 ], [ "element119", 5 ] ]
   },
   {
     "type": "COMESTIBLE",
@@ -50,13 +50,13 @@
     "name": { "str_sp": "basic trail mix" },
     "weight": "250 g",
     "color": "brown",
-    "spoils_in": "90 days",
+    "spoils_in": "60 days",
     "comestible_type": "FOOD",
     "symbol": "%",
     "quench": -7,
     "healthy": 2,
-    "calories": 50,
-    "description": "A basic trail mix consisting of some nuts and dried fruit. It's tasty and healthy, but could use some salt.",
+    "calories": 102,
+    "description": "A basic trail mix consisting of some nuts and dried fruit.  It's tasty and healthy, but could use some salt.",
     "price": 60,
     "price_postapoc": 10,
     "material": [ "fruit", "nut" ],
@@ -70,19 +70,21 @@
     "type": "COMESTIBLE",
     "id": "pine_nut_milk",
     "name": { "str": "pine nut milk" },
-    "description": "Milk some pine nuts?  Not quite, but blend them with water, yes!  A dairy-free alternative strong in calcium!  Rival to [ALL] milk.",
-	"copy-from": "almond_milk",
-	"use_action": [ "ANTIFUNGAL" ],
-	"looks_like": "milk"
+    "description": "Milk some pine nuts?  Not quite, but blend them with water, yes!  A dairy-free alternative strong in calcium!  Rival to most other consumable fluids.",
+    "copy-from": "almond_milk",
+    "use_action": [ "ANTIFUNGAL" ],
+    "looks_like": "milk",
+    "vitamins": [ [ "element119", 15 ] ]
   },
   {
     "type": "COMESTIBLE",
     "id": "pine_nut_pulp",
     "name": { "str_sp": "pine nut pulp" },
     "description": "Pulp left over after making pine nut milk.  It's gritty and bland.",
-  	"copy-from": "almond_pulp",
-  	"use_action": [ "ANTIFUNGAL" ],
-	  "looks_like": "instant_coffee"
+    "copy-from": "almond_pulp",
+    "use_action": [ "ANTIFUNGAL" ],
+    "looks_like": "instant_coffee",
+    "vitamins": [ [ "element119", 1 ] ]
   },
   {
     "id": "pine_nut_ambrosia",
@@ -91,38 +93,41 @@
     "description": "Delicious pine nut ambrosia.  A drink worthy of the gods.",
     "copy-from": "hickory_nut_ambrosia",
     "use_action": [ "ANTIFUNGAL" ],
-	  "looks_like": "beer"
+    "looks_like": "beer",
+    "vitamins": [ [ "element119", 20 ] ]
   },
   {
     "id": "pine_nut_butter",
     "type": "COMESTIBLE",
     "name": { "str": "pine nut butter" },
     "description": "A light brown paste that tastes very little like its namesake.  It's not bad, but it'll stick to the roof of your mouth.",
-	  "copy-from": "peanutbutter",
-	  "use_action": [ "ANTIFUNGAL" ],
-	  "looks_like":"peanutbutter"
+    "copy-from": "peanutbutter",
+    "use_action": [ "ANTIFUNGAL" ],
+    "looks_like":"peanutbutter",
+    "vitamins": [ [ "element119", 8 ] ]
   },
   {
     "type": "COMESTIBLE",
     "id": "pine_nut_meal",
     "name": { "str_sp": "cooked pine nut meal" },
     "description": "A serving of pine nuts that have been chopped and boiled in water before being thoroughly toasted until dry.  Filling and nutritious.",
-	  "copy-from": "acorns_cooked",
-	  "use_action": [ "ANTIFUNGAL" ],
-	  "looks_like":"hickory_nut"
+    "copy-from": "acorns_cooked",
+    "use_action": [ "ANTIFUNGAL" ],
+    "looks_like":"hickory_nut",
+    "vitamins": [ [ "element119", 10 ] ]
   },
   {
     "id": "nut_shell",
     "type": "GENERIC",
     "name": { "str": "nut shell" },
-    "description": "The shells left behind after cracking open a nut. Could be used as fuel, or made into charcoal.",
+    "description": "The shells left behind after cracking open a nut.  Could be used as fuel, or made into charcoal.",
     "weight": "25 mg",
     "volume": "2 ml",
     "price": 0,
     "price_postapoc": 0,
     "material": [ "wood" ],
     "symbol": ".",
-    "flags":["FIREWOOD","TINDER"],
+    "flags":[ "FIREWOOD", "TINDER"],
     "color": "brown",
     "looks_like": "tinder"
    },
@@ -138,7 +143,7 @@
 	  "weight": "90 g",
     "volume": "250 ml",
     "to_hit": -2,
-    "flags": [ "FIREWOOD","TINDER" ]
+    "flags": [ "FIREWOOD", "TINDER" ]
   },
   {
     "type": "GENERIC",
@@ -146,9 +151,9 @@
     "symbol": ",",
     "color": "green",
     "name": { "str": "pine heart" },
-    "description": "Harvested from a slain pine nut creature, this heart-like organ vaguely resembles a pinecone. However, it's color reminds you of pine needles, and its scales have been replaced with arteries that slowly ooze pine sap rather than blood.",
+    "description": "Harvested from a slain pine nut creature, this heart-like organ vaguely resembles a pinecone.  However, its green color reminds you of pine needles, and its scales have been replaced with arteries that slowly ooze pine sap rather than blood.",
     "material": [ "flesh", "nut" ],
-	  "weight": "750 g",
+    "weight": "750 g",
     "volume": "500 ml",
     "to_hit": -5
   },
@@ -163,8 +168,8 @@
     "symbol": "%",
     "quench": -13,
     "healthy": 2,
-    "calories": 50,
-    "description": "Trail mix consisting of some salted nuts and dried fruit. It's tasty and healthy.",
+    "calories": 112,
+    "description": "Trail mix consisting of some salted nuts and dried fruit.  It's tasty and healthy.",
     "price": 60,
     "price_postapoc": 10,
     "material": [ "fruit", "nut" ],
@@ -184,21 +189,21 @@
     "comestible_type": "FOOD",
     "symbol": "%",
     "quench": -13,
-    "healthy": 3,
-    "calories": 50,
-    "description": "Trail mix consisting of two types of salted nuts and dried fruit. It's quite tasty and healthy.",
+    "healthy": 5,
+    "calories": 224,
+    "description": "Trail mix consisting of two types of salted nuts and dried fruit.  It's quite tasty and healthy.",
     "price": 60,
     "price_postapoc": 10,
     "material": [ "fruit", "nut" ],
     "volume": "305 ml",
     "stack_size": 5,
-    "fun": 7,
+    "fun": 8,
     "use_action": [ "ANTIFUNGAL" ],
-    "vitamins": [ [ "vitC", 3 ], [ "calcium", 2 ] ]
+    "vitamins": [ [ "vitC", 3 ], [ "calcium", 2 ], [ "element119", 2 ] ]
   },
   {
     "type": "COMESTIBLE",
-	"comestible_type": "DRINK",
+    "comestible_type": "DRINK",
     "id": "pine_nut_oil",
     "name": { "str_sp": "pine nut oil" },
     "weight": "15 g",
@@ -214,23 +219,38 @@
     "looks_like":"cooking_oil",
     "phase": "liquid",
     "freezing_point": 14,
-	"flags": [ "NUTRIENT_OVERRIDE","NO_INGEST" ],
-	"use_action": { 
-	"type": "cast_spell",
-	"spell_id": "covering_oil",
-	"no_fail": true,
-	"level": 0,
-	"need_wielding": false }
+    "flags": [ "NUTRIENT_OVERRIDE", "NO_INGEST" ],
+    "use_action": { 
+    "type": "cast_spell",
+    "spell_id": "covering_oil",
+    "no_fail": true,
+    "level": 0,
+    "need_wielding": false },
+    "vitamins": [ [ "element119", 30 ] ]
   },
   {
-    "type": "GENERIC",
+    "type": "COMESTIBLE",
     "id": "pine_nuts",
-	  "copy-from": "pine_nuts",
+    "name": { "str_sp": "pine nuts" },
+    "weight": "15 g",
+    "color": "brown",
+    "spoils_in": 1080,
+    "container": "bag_plastic",
+    "comestible_type": "FOOD",
     "symbol": "%",
-    "color": "green",
-    "name": { "str": "pine nuts" },
+    "quench": -1,
+    "healthy": 2,
+    "calories": 101,
+    "description": "A handful of tasty crunchy nuts from a pinecone.",
+    "price": 68,
+    "price_postapoc": 300,
+    "material": [ "nut" ],
+    "volume": "100 ml",
     "use_action": [ "ANTIFUNGAL" ],
-	  "looks_like":"hickory_nut"
+    "flags": [ "EDIBLE_FROZEN", "NUTRIENT_OVERRIDE" ],
+    "charges": 4,
+    "vitamins": [ [ "iron", 5 ], [ "calcium", 1 ], [ "element119", 8 ] ],
+    "fun": 3
   },
   {
     "type": "COMESTIBLE",
@@ -252,7 +272,7 @@
     "charges": 4,
     "phase": "liquid",
     "use_action": [ "ANTIFUNGAL" ],
-    "vitamins": [ [ "vitA", 7 ], [ "calcium", 11 ], [ "iron", 3 ] ],
+    "vitamins": [ [ "vitA", 7 ], [ "calcium", 11 ], [ "iron", 3 ], [ "element119", 5 ] ],
     "fun": 4
   }
 ]
