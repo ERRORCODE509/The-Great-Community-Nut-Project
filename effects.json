@@ -6,7 +6,7 @@
     "desc": [ 
       "A small amount of Element-119 has made its way into your bloodstream, and has begun having strange effects on your body.",
       "A significant amount of Element-119 has made its way into your bloodstream and a few of your organs.  It has mixed effects on your body.",
-      "An extreme amount of Element-119 has made its way into your bloodstream and organs, primarily your brain.  The effects, while mixed, are more beneficial than detreimental."
+      "An extreme amount of Element-119 has made its way into your bloodstream and organs, primarily your brain.  The effects, while mixed, are more beneficial than they are detreimental."
     ],
     "apply_message": "You feel odd.",
     "remove_message": "You feel as though you've lost part of yourself.",
@@ -28,7 +28,9 @@
       "per_mod": [ -1.25 ],
       "speed_mod": [ 10 ]
     },
+    "blocks_effects": ["cold", "flu"],
+    "show_intensity": false,
     "rating": "mixed",
-    "blood_analysis_description": "Element-119 Poisoning"
+    "blood_analysis_description": "High Element-119 Concentration"
   }
 ]
