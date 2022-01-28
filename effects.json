@@ -28,7 +28,7 @@
       "per_mod": [ -1.25 ],
       "speed_mod": [ 10 ]
     },
-    "blocks_effects": ["cold", "flu"],
+    "blocks_effects": [ "cold", "flu" ],
     "show_intensity": false,
     "rating": "mixed",
     "blood_analysis_description": "High Element-119 Concentration"
