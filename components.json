@@ -4,5 +4,11 @@
     "type": "requirement",
     "//": "All nuts as a list, just to make things easier for me.",
     "components": [ [ [ "pine_nuts", 1 ], [ "acorn_roasted", 1 ], [ "almond_roasted", 1 ], [ "pistachio_roasted", 1 ], [ "cashews", 1 ], [ "pecan_roasted", 1 ], [ "beech_nuts", 1 ], [ "walnut_roasted", 1 ], [ "chestnut_roasted", 1 ], [ "hazelnut_roasted", 1 ], [ "peanut_unshelled", 1 ], [ "hickory_nut_roasted", 1 ] ] ]
+  },
+  {
+    "id": "list_nuts",
+    "type": "requirement",
+    "//": "All nuts except for pine nuts, for use in crafting recipes.",
+    "components": [ [ [ "acorn_roasted", 1 ], [ "almond_roasted", 1 ], [ "pistachio_roasted", 1 ], [ "cashews", 1 ], [ "pecan_roasted", 1 ], [ "beech_nuts", 1 ], [ "walnut_roasted", 1 ], [ "chestnut_roasted", 1 ], [ "hazelnut_roasted", 1 ], [ "peanut_unshelled", 1 ], [ "hickory_nut_roasted", 1 ] ] ]
   }
 ]
