@@ -2,13 +2,13 @@
   {
     "type": "mutation",
     "id": "THRESH_PINE_MUTATION",
-    "name": { "str": "P I N E" },
+    "name": { "str": "Pine Threshold" },
     "points": 1,
     "description": "You are one with the pine.",
     "valid": false,
     "purifiable": false,
     "threshold": true
-  },	
+  },
   {
     "type": "mutation",
     "id": "BARKSKINPINE",
@@ -77,6 +77,6 @@
     "points": 3,
     "description": "You have managed managed to get post nut clarity after crossing the nut threshold, and now, you can allow your body to do even more.",
     "category": [ "PINE_MUTATION" ],
-	"threshreq": [ "THRESH_PINE_MUTATION" ]
+    "threshreq": [ "THRESH_PINE_MUTATION" ]
   }	
 ]

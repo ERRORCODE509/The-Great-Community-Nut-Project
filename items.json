@@ -134,13 +134,13 @@
    {
     "type": "GENERIC",
     "id": "pinecone",
-  	"copy-from": "pinecone",
+    "copy-from": "pinecone",
     "symbol": ",",
     "color": "brown",
     "name": { "str": "pinecone" },
     "description": "A spiny pod from a pine tree.  Dry seeds rattle around inside when you shake it.",
     "material": [ "wood" ],
-	  "weight": "90 g",
+    "weight": "90 g",
     "volume": "250 ml",
     "to_hit": -2,
     "flags": [ "FIREWOOD", "TINDER" ]

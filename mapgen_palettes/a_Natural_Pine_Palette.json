@@ -7,20 +7,20 @@
       ",": "pine_wood_wall",
       "_": "pine_rough_floor",
       "d": "t_tree_pine",
-	  "B": "pine_stair_up",
-	  "v": "t_open_air",
-	  "b": "pine_stair_down",
-	  "l": "pine_leaves",
-	  "Y": "pine_rough_floor",
+      "B": "pine_stair_up",
+      "v": "t_open_air",
+      "b": "pine_stair_down",
+      "l": "pine_leaves",
+      "Y": "pine_rough_floor",
       "X": "pine_rough_floor",
       "D": "pine_rough_floor",
       "Z": "pine_rough_floor"
     },
-	"monster": { 
-			 "Y": { "monster": "mon_nut_titan" },
-			 "X": { "monster": "mon_nut_shambler" },
-			 "D": { "monster": "mon_nut_golem" } , 
-			 "Z": { "monster": "mon_nut_construct" } 
+    "monster": { 
+      "Y": { "monster": "mon_nut_titan" },
+      "X": { "monster": "mon_nut_shambler" },
+      "D": { "monster": "mon_nut_golem" } , 
+      "Z": { "monster": "mon_nut_construct" } 
     }
   }
 ]
