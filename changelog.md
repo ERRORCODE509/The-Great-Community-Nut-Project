@@ -1,4 +1,4 @@
-Version 0.2:
+Version 0.4:
 
 -Added Pine nut stalker, mass, flaming mass, and swimmer
 
