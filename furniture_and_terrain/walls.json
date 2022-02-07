@@ -88,6 +88,7 @@
       "str_min_supported": 25,
       "items": [
         { "item": "pine_nuts", "charges": [ 12, 29 ] }
+      "//": "This is meant to be a wall instead of a floor, isn't it?"
       ]
     }
   }
