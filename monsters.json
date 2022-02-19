@@ -320,7 +320,7 @@
     "armor_cut": 30,
     "armor_bullet": 24,
     "vision_night": 50,
-    "mech_str_bonus": 32,
+    "mech_str_bonus": 15,
     "mech_battery": "nut_powercore",
     "attack_cost": 145,
     "revert_to_itype": "broken_nut_mech",
