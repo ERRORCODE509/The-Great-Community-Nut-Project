@@ -288,10 +288,10 @@
     "material": [ "nut", "wood" ],
     "symbol": "=",
     "color": "green",
-    "ammo_type": [ "battery" ],
-    "count": 1000,
+    "ammo_type": [ "pine_nuts" ],
+    "count": 100000,
     "capacity": 10000,
     "flags": [ "NO_SALVAGE", "NO_UNLOAD", "MECH_BAT", "LEAK_DAM", "RADIOACTIVE" ],
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "battery": 100000 } } ]
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "pine_nuts": 100000 } } ]
   },
 ]
