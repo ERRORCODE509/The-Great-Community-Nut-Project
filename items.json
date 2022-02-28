@@ -274,5 +274,24 @@
     "use_action": [ "ANTIFUNGAL" ],
     "vitamins": [ [ "vitA", 7 ], [ "calcium", 11 ], [ "iron", 3 ], [ "element119", 5 ] ],
     "fun": 4
-  }
+  },
+  {
+    "id": "nut_powercore",
+    "type": "MAGAZINE",
+    "category": "spare_parts",
+    "name": { "str": "experimental pine nut powercore" },
+    "description": "An experimental pine nut powercore, using pine nuts to feed a stabilized black hole.  The resulting Hawking radiation is then harvested and used to power specialized equipment.  The fuel material cannot be extracted for obvious reasons.",
+    "weight": "1900 g",
+    "volume": "750 ml",
+    "price": 100000,
+    "price_postapoc": 5000,
+    "material": [ "nut", "wood" ],
+    "symbol": "=",
+    "color": "green",
+    "ammo_type": [ "battery" ],
+    "count": 1000,
+    "capacity": 10000,
+    "flags": [ "NO_SALVAGE", "NO_UNLOAD", "MECH_BAT", "LEAK_DAM", "RADIOACTIVE" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "battery": 100000 } } ]
+  },
 ]
