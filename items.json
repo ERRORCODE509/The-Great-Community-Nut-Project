@@ -280,7 +280,7 @@
     "type": "MAGAZINE",
     "category": "spare_parts",
     "name": { "str": "experimental pine nut powercore" },
-    "description": "An experimental pine nut powercore, using pine nuts to feed a stabilized black hole.  The resulting Hawking radiation is then harvested and used to power specialized equipment.  The fuel material cannot be extracted for obvious reasons.",
+    "description": "An experimental pine nut powercore, using element-119 to feed a stabilized black hole.  The resulting Hawking radiation is then harvested and used to power specialized equipment.  The fuel material cannot be extracted for obvious reasons.",
     "weight": "1900 g",
     "volume": "750 ml",
     "price": 100000,
