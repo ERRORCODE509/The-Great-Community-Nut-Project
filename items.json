@@ -294,4 +294,18 @@
     "flags": [ "NO_SALVAGE", "NO_UNLOAD", "MECH_BAT", "LEAK_DAM", "RADIOACTIVE" ],
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "pine_nuts": 100000 } } ]
   },
+  {
+    "id": "119_crystals",
+    "type": "GENERIC",
+    "name": { "str": "nut shell" },
+    "description": "Element-119 in a crystalline form.",
+    "weight": "1 g",
+    "volume": "3 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "material": [ "element-119" ],
+    "symbol": ".",
+    "flags":[ "FIREWOOD", "TINDER"],
+    "color": "light_blue"
+  }
 ]
