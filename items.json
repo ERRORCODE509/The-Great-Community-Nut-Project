@@ -298,14 +298,13 @@
     "id": "119_crystals",
     "type": "GENERIC",
     "name": { "str": "nut shell" },
-    "description": "Element-119 in a crystalline form.",
+    "description": "Element-119 in its crystalline form.",
     "weight": "1 g",
     "volume": "3 ml",
     "price": 0,
     "price_postapoc": 0,
-    "material": [ "element-119" ],
+    "material": [ "element_119" ],
     "symbol": "*",
-    "flags":[ "FIREWOOD", "TINDER"],
     "color": "light_blue"
   },
   {
@@ -317,10 +316,8 @@
     "volume": "2 ml",
     "price": 0,
     "price_postapoc": 0,
-    "material": [ "wood" ],
-    "symbol": ".",
-    "flags":[ "FIREWOOD", "TINDER"],
-    "color": "brown",
-    "looks_like": "tinder"
+    "material": [ "element_119" ],
+    "symbol": "~",
+    "color": "light_blue"
   },
 ]
