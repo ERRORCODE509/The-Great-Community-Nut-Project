@@ -304,8 +304,23 @@
     "price": 0,
     "price_postapoc": 0,
     "material": [ "element-119" ],
-    "symbol": ".",
+    "symbol": "*",
     "flags":[ "FIREWOOD", "TINDER"],
     "color": "light_blue"
-  }
+  },
+  {
+    "id": "119_powder",
+    "type": "GENERIC",
+    "name": { "str": "Element-119 powder" },
+    "description": "Element-119 crystals, ground into a fine powder.",
+    "weight": "25 mg",
+    "volume": "2 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "material": [ "wood" ],
+    "symbol": ".",
+    "flags":[ "FIREWOOD", "TINDER"],
+    "color": "brown",
+    "looks_like": "tinder"
+  },
 ]
