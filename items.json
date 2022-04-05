@@ -295,16 +295,16 @@
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "pine_nuts": 100000 } } ]
   },
   {
-    "id": "119_crystals",
+    "id": "119_shards",
     "type": "GENERIC",
     "name": { "str": "nut shell" },
-    "description": "Element-119 in its crystalline form.",
+    "description": "A few crystalline shards of Element-119.",
     "weight": "1 g",
     "volume": "3 ml",
     "price": 0,
     "price_postapoc": 0,
     "material": [ "element_119" ],
-    "symbol": "*",
+    "symbol": ".",
     "color": "light_blue"
   },
   {
@@ -320,4 +320,17 @@
     "symbol": "~",
     "color": "light_blue"
   },
+  {
+    "id": "119_crystal",
+    "type": "GENERIC",
+    "name": { "str": "Element-119 powder" },
+    "description": "A large crystal of Element-119.",
+    "weight": "8 g",
+    "volume": "10 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "material": [ "element_119" ],
+    "symbol": "*",
+    "color": "light_blue"
+  }
 ]
