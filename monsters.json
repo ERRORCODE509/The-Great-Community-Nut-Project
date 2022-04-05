@@ -196,7 +196,7 @@
     "path_settings": { "avoid_traps": true },
     "harvest": "nut_stalker",
     "biosignature": { "biosig_item": "pine_nuts", "biosig_timer": 6 },
-    "flags": [ "SEES", "HEARS", "NO_BREATHE", "FLAMMABLE", "REVIVES", "WEBWALK", "SLUDGEPROOF", "NOHEAD", "COLDPROOF", "CLIMBS", "NO_FUNG_DMG", "SMELLS", "GOODHEARING", "GUILT", "KEENNOSE", "CAMOUFLAGE", "CAN_OPEN_DOORS", "NIGHT_INVISIBILITY", "SWIMS", "WATER_CAMOUFLAGE" ],
+    "flags": [ "SEES", "HEARS", "NO_BREATHE", "FLAMMABLE", "REVIVES", "WEBWALK", "SLUDGEPROOF", "NOHEAD", "COLDPROOF", "CLIMBS", "NO_FUNG_DMG", "SMELLS", "GOODHEARING", "KEENNOSE", "CAMOUFLAGE", "CAN_OPEN_DOORS", "NIGHT_INVISIBILITY", "SWIMS", "WATER_CAMOUFLAGE", "BADVENOM", "GRABS" ],
     "bleed_rate": 0,
     "death_function": { "corpse_type": "NORMAL", "message": "The %s crumbles!" }
   },
@@ -260,7 +260,7 @@
     "regenerates": 1,
     "harvest": "exempt",
     "biosignature": { "biosig_item": "pine_nuts", "biosig_timer": 6 },
-    "flags": [ "SEES", "HEARS", "NO_BREATHE", "FLAMMABLE", "REVIVES", "WEBWALK", "SLUDGEPROOF", "NOHEAD", "CLIMBS", "NO_FUNG_DMG", "GUILT", "FLIES", "ATTACK_UPPER", "FIREY", "SWARMS" ],
+    "flags": [ "SEES", "HEARS", "NO_BREATHE", "FLAMMABLE", "REVIVES", "WEBWALK", "SLUDGEPROOF", "NOHEAD", "CLIMBS", "NO_FUNG_DMG", "GUILT", "FLIES", "ATTACK_UPPER", "FIREY", "SWARMS", "ELECTRIC_FIELD" ],
     "bleed_rate": 0,
     "death_function": { "corpse_type": "NO_CORPSE", "message": "The %s erupts in a firey explosion!", "effect": { "id": "death_flame_explosion", "hit_self": true } }
    },
