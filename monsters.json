@@ -309,7 +309,7 @@
     "speed": 45,
     "material": [ "nut" ],
     "symbol": "M",
-    "color": "yellow",
+    "color": "brown",
     "aggression": -50,
     "morale": 100,
     "melee_skill": 6,
