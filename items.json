@@ -287,17 +287,18 @@
     "price_postapoc": 5000,
     "material": [ "nut", "wood" ],
     "symbol": "=",
-    "color": "green",
-    "ammo_type": [ "pine_nuts" ],
+    "color": "brown",
+    "ammo_type": [ "119_powder" ],
     "count": 100000,
     "capacity": 10000,
     "flags": [ "NO_SALVAGE", "NO_UNLOAD", "MECH_BAT", "LEAK_DAM", "RADIOACTIVE" ],
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "pine_nuts": 100000 } } ]
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "119_powder": 100000 } } ]
   },
   {
     "id": "119_shards",
     "type": "GENERIC",
-    "name": { "str": "nut shell" },
+    "category": "chems",
+    "name": { "str": "Element-119 shards" },
     "description": "A few crystalline shards of Element-119.",
     "weight": "1 g",
     "volume": "3 ml",
@@ -310,6 +311,7 @@
   {
     "id": "119_powder",
     "type": "GENERIC",
+    "category": "chems",
     "name": { "str": "Element-119 powder" },
     "description": "Element-119 crystals, ground into a fine powder.",
     "weight": "25 mg",
@@ -323,6 +325,7 @@
   {
     "id": "119_crystal",
     "type": "GENERIC",
+    "category": "chems",
     "name": { "str": "Element-119 powder" },
     "description": "A large crystal of Element-119.",
     "weight": "8 g",
