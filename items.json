@@ -291,7 +291,7 @@
     "ammo_type": [ "119_powder" ],
     "count": 100000,
     "capacity": 10000,
-    "flags": [ "NO_SALVAGE", "NO_UNLOAD", "MECH_BAT", "LEAK_DAM", "RADIOACTIVE" ],
+    "flags": [ "NO_SALVAGE", "NO_UNLOAD", "MECH_BAT", "LEAK_DAM", "RADIOACTIVE", "TRADER_AVOID" ],
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "119_powder": 100000 } } ]
   },
   {
@@ -306,7 +306,8 @@
     "price_postapoc": 0,
     "material": [ "element_119" ],
     "symbol": ".",
-    "color": "light_blue"
+    "color": "light_blue",
+    "flags": [ "TRADER_AVOID" ]
   },
   {
     "id": "119_powder",
@@ -320,7 +321,8 @@
     "price_postapoc": 0,
     "material": [ "element_119" ],
     "symbol": "~",
-    "color": "light_blue"
+    "color": "light_blue",
+    "flags": [ "TRADER_AVOID" ]
   },
   {
     "id": "119_crystal",
@@ -334,7 +336,8 @@
     "price_postapoc": 0,
     "material": [ "element_119" ],
     "symbol": "*",
-    "color": "light_blue"
+    "color": "light_blue",
+    "flags": [ "TRADER_AVOID" ]
   },
   {
     "type": "COMESTIBLE",
@@ -349,14 +352,15 @@
     "symbol": "~",
     "quench": -120,
     "healthy": -28,
-    "description": "A viscous semi-fluid consisting of Element-119 nanoparticles suspended in",
-    "price": 67,
-    "price_postapoc": 50,
-    "//": "$0.67 per charge for a $10 15-charge gallon of bleach.",
+    "description": "A viscous semi-fluid consisting of Element-119 nanoparticles suspended in an exotic solvent.",
+    "price": 0,
+    "price_postapoc": 0,
+    "//": "Just copying bleach for this one, fluids are confusing as all hell.",
     "volume": "250 ml",
     "phase": "liquid",
     "charges": 2,
     "category": "chems",
-    "fun": -44
+    "fun": -44,
+    "flags": [ "TRADER_AVOID" ]
   }
 ]
