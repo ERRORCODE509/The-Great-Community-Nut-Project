@@ -3,7 +3,7 @@
     "id": "mon_alpha_razorclaw",
     "type": "MONSTER",
     "name": { "str": "pine nut alpha razorclaw" },
-    "description": "A blood-red, gigantic razorclaw.  With its sword-like pincers, it serves as a protector of the nest.",
+    "description": "A gigantic razorclaw, made entirely of pine nuts.  With its sword-like pincers, it serves as a protector of the nest.",
     "default_faction": "razorclaw",
     "bodytype": "crab",
     "species": [ "MUTANT" ],
@@ -12,7 +12,7 @@
     "weight": "120 kg",
     "hp": 120,
     "speed": 95,
-    "material": [ "flesh" ],
+    "material": [ "nut" ],
     "symbol": "Y",
     "color": "brown",
     "aggression": 15,
@@ -41,7 +41,7 @@
     "type": "MONSTER",
     "name": { "str_sp": "tiny pine nut fish" },
     "//": "a default fish type - does not appear in-game",
-    "description": "A tiny fish.",
+    "description": "A tiny fish, made entirely of pine nuts.",
     "default_faction": "fish",
     "bodytype": "fish",
     "categories": [ "WILDLIFE" ],
@@ -51,7 +51,7 @@
     "hp": 2,
     "speed": 150,
     "dodge": 8,
-    "material": [ "flesh" ],
+    "material": [ "nut" ],
     "symbol": "f",
     "color": "brown",
     "aggression": -60,
@@ -71,7 +71,7 @@
     "type": "MONSTER",
     "name": { "str_sp": "small pine nut fish" },
     "//": "a default fish type - does not appear in-game",
-    "description": "A small fish.",
+    "description": "A small fish, made entirely of pine nuts.",
     "default_faction": "fish",
     "bodytype": "fish",
     "categories": [ "WILDLIFE" ],
@@ -81,7 +81,7 @@
     "hp": 6,
     "speed": 150,
     "dodge": 8,
-    "material": [ "flesh" ],
+    "material": [ "nut" ],
     "symbol": "f",
     "color": "brown",
     "aggression": -60,
@@ -100,7 +100,7 @@
   {
     "id": "mon_fish_medium",
     "type": "MONSTER",
-    "description": "A medium fish.",
+    "description": "A medium fish, made entirely of pine nuts.",
     "default_faction": "fish",
     "name": { "str_sp": "medium pine nut fish" },
     "//": "a default fish type - does not appear in-game",
@@ -112,7 +112,7 @@
     "hp": 10,
     "speed": 150,
     "dodge": 8,
-    "material": [ "flesh" ],
+    "material": [ "nut" ],
     "symbol": "f",
     "color": "brown",
     "aggression": -60,
@@ -131,7 +131,7 @@
   {
     "id": "mon_fish_large",
     "type": "MONSTER",
-    "description": "A large fish.",
+    "description": "A large fish, made entirely of pine nuts.",
     "default_faction": "fish",
     "bodytype": "fish",
     "categories": [ "WILDLIFE" ],
@@ -143,7 +143,7 @@
     "hp": 20,
     "speed": 150,
     "dodge": 8,
-    "material": [ "flesh" ],
+    "material": [ "nut" ],
     "symbol": "F",
     "color": "brown",
     "aggression": -60,
@@ -162,7 +162,7 @@
   {
     "id": "mon_fish_huge",
     "type": "MONSTER",
-    "description": "A huge fish.",
+    "description": "A huge fish, made entirely of pine nuts.",
     "default_faction": "fish",
     "bodytype": "fish",
     "categories": [ "WILDLIFE" ],
@@ -174,7 +174,7 @@
     "hp": 30,
     "speed": 150,
     "dodge": 8,
-    "material": [ "flesh" ],
+    "material": [ "nut" ],
     "symbol": "F",
     "color": "brown",
     "aggression": -60,
@@ -195,7 +195,7 @@
     "type": "MONSTER",
     "copy-from": "mon_fish_medium",
     "name": { "str": "pine nut trout" },
-    "description": "A trout.  A fish made popular by father-son fishing trips, except for the part where you have to gut it."
+    "description": "A trout.  A fish made popular by father-son fishing trips, except for the part where you have to gut it.  Not like that's a problem any more though, seeing as to how it's made of pine nuts."
   },
   {
     "id": "mon_fish_brown_trout",
@@ -203,7 +203,7 @@
     "copy-from": "mon_fish_medium",
     "name": { "str": "pine nut trout" },
     "looks_like": "mon_fish_trout",
-    "description": "A brown trout.  A fish made popular by father-son fishing trips, except for the part where you have to gut it."
+    "description": "A trout.  A fish made popular by father-son fishing trips, except for the part where you have to gut it.  Not like that's a problem any more though, seeing as to how it's made of pine nuts."
   },
   {
     "id": "mon_fish_brook_trout",
@@ -211,7 +211,7 @@
     "copy-from": "mon_fish_small",
     "name": { "str": "pine nut brook trout" },
     "looks_like": "mon_fish_trout",
-    "description": "A brook trout.  A fish made popular by father-son fishing trips, except for the part where you have to gut it."
+    "description": "A brook trout.  A fish made popular by father-son fishing trips, except for the part where you have to gut it.  Not like that's a problem any more though, seeing as to how it's made of pine nuts."
   },
   {
     "id": "mon_fish_lake_trout",
@@ -219,7 +219,7 @@
     "copy-from": "mon_fish_large",
     "name": { "str": "pine nut lake trout" },
     "looks_like": "mon_fish_trout",
-    "description": "A lake trout.  A fish made popular by father-son fishing trips, except for the part where you have to gut it."
+    "description": "A lake trout.  A fish made popular by father-son fishing trips, except for the part where you have to gut it.  Not like that's a problem any more though, seeing as to how it's made of pine nuts."
   },
   {
     "id": "mon_fish_rainbow_trout",
@@ -227,7 +227,7 @@
     "copy-from": "mon_fish_medium",
     "name": { "str": "pine nut trout" },
     "looks_like": "mon_fish_trout",
-    "description": "A rainbow trout.  A fish made popular by father-son fishing trips, except for the part where you have to gut it."
+    "description": "A trout.  A fish made popular by father-son fishing trips, except for the part where you have to gut it.  Not like that's a problem any more though, seeing as to how it's made of pine nuts."
   },
   {
     "id": "mon_fish_steelhead_trout",
@@ -235,14 +235,14 @@
     "copy-from": "mon_fish_large",
     "name": { "str": "pine nut steelhead trout" },
     "looks_like": "mon_fish_trout",
-    "description": "A steelhead trout.  A fish made popular by father-son fishing trips, except for the part where you have to gut it."
+    "description": "A steelhead trout.  A fish made popular by father-son fishing trips, except for the part where you have to gut it.  Not like that's a problem any more though, seeing as to how it's made of pine nuts."
   },
   {
     "id": "mon_fish_salmon",
     "type": "MONSTER",
     "copy-from": "mon_fish_huge",
     "name": { "str": "pine nut salmon" },
-    "description": "An Atlantic salmon.  A very fatty, nutritious fish.  Tastes great smoked."
+    "description": "An Atlantic salmon.  What was once a fatty, nutritious fish is now just an aquatic mass of pine nuts.  At least it's still a decent meal."
   },
   {
     "id": "mon_fish_kokanee_salmon",
@@ -250,7 +250,7 @@
     "copy-from": "mon_fish_medium",
     "name": { "str": "pine nut kokanee salmon" },
     "looks_like": "mon_fish_salmon",
-    "description": "A Kokanee salmon.  A very fatty, nutritious fish.  Tastes great smoked."
+    "description": "A Kokanee salmon.  What was once a fatty, nutritious fish is now just an aquatic mass of pine nuts.  At least it's still a decent meal."
   },
   {
     "id": "mon_fish_chinook_salmon",
@@ -258,7 +258,7 @@
     "copy-from": "mon_fish_huge",
     "name": { "str": "pine nut chinook salmon" },
     "looks_like": "mon_fish_salmon",
-    "description": "A Chinook salmon.  A very fatty, nutritious fish.  Tastes great smoked."
+    "description": "A Chinook salmon.  What was once a fatty, nutritious fish is now just an aquatic mass of pine nuts.  At least it's still a decent meal."
   },
   {
     "id": "mon_fish_coho_salmon",
@@ -266,35 +266,35 @@
     "copy-from": "mon_fish_large",
     "name": { "str": "pine nut coho salmon" },
     "looks_like": "mon_fish_salmon",
-    "description": "A Coho salmon.  A very fatty, nutritious fish.  Tastes great smoked."
+    "description": "A Coho salmon.  What was once a fatty, nutritious fish is now just an aquatic mass of pine nuts.  At least it's still a decent meal."
   },
   {
     "id": "mon_fish_whitefish",
     "type": "MONSTER",
     "copy-from": "mon_fish_medium",
     "name": { "str_sp": "pine nut whitefish" },
-    "description": "A whitefish, closely related to salmon.  One can assume they taste just as nice when smoked."
+    "description": "A whitefish, closely related to salmon.  And just like salmon, you sort of wish that you still had the pre-pine nut version."
   },
   {
     "id": "mon_fish_lbass",
     "type": "MONSTER",
     "copy-from": "mon_fish_medium",
     "name": { "str_sp": "pine nut largemouth bass" },
-    "description": "A largemouth bass.  Very popular with sport fishermen."
+    "description": "A largemouth bass.  Very popular with sport fishermen before the Cataclysm, but probably not anymore, what with it being made of pine nuts and all."
   },
   {
     "id": "mon_fish_sbass",
     "type": "MONSTER",
     "copy-from": "mon_fish_small",
     "name": { "str_sp": "pine nut smallmouth bass" },
-    "description": "A smallmouth bass.  Infamously intolerant to pollution, the presence of smallmouth bass is a good indicator of how clean a body of water is."
+    "description": "A smallmouth bass.  Infamously intolerant to pollution, the presence of smallmouth bass is a good indicator of how clean a body of water is.  Hard to say if that's still true, seeing as it's now made of pine nuts."
   },
   {
     "id": "mon_fish_pbass",
     "type": "MONSTER",
     "copy-from": "mon_fish_medium",
     "name": { "str_sp": "pine nut striped bass" },
-    "description": "A striped bass.  Mostly a saltwater fish, they migrate to fresher water to spawn."
+    "description": "A striped bass.  Mostly a saltwater fish, they migrate to fresher water to spawn. Not very clear if they still do that, however, what with it being made of pine nuts and all."
   },
   {
     "id": "mon_fish_white_bass",
@@ -310,7 +310,7 @@
     "copy-from": "mon_fish_small",
     "name": { "str": "pine nut perch", "str_pl": "perches" },
     "looks_like": "mon_fish_pickerel",
-    "description": "A small, sprightly perch.  It is a very bony fish, still has some tasty meat on it though."
+    "description": "A small, sprightly perch.  It was a very bony fish prior to the Cataclysm, but now it's just made of pine nuts.  Probably for the best, to be honest."
   },
   {
     "id": "mon_fish_walleye",
@@ -318,14 +318,14 @@
     "copy-from": "mon_fish_medium",
     "name": { "str": "pine nut walleye" },
     "looks_like": "mon_fish_pbass",
-    "description": "A walleye.  A green-brown medium-sized fish with a white belly."
+    "description": "A walleye.  A medium-sized fish made of pine nuts, just like all the rest."
   },
   {
     "id": "mon_fish_sunfish",
     "type": "MONSTER",
     "copy-from": "mon_fish_tiny",
     "name": { "str_sp": "pine nut sunfish" },
-    "description": "A sunfish.  A small fish related to bass and bluegill."
+    "description": "A sunfish.  A small fish related to bass and bluegill, although it seems like all fish are the same nowadays: made of pine nuts."
   },
   {
     "id": "mon_fish_pumpkinseed",
@@ -333,14 +333,14 @@
     "copy-from": "mon_fish_tiny",
     "name": { "str_sp": "pine nut pumpkinseed sunfish" },
     "looks_like": "mon_fish_sunfish",
-    "description": "A pumpkinseed sunfish.  A small fish related to bass and bluegill."
+    "description": "A pumpkinseed sunfish.  A small fish related to bass and bluegill, although it seems like all fish are the same nowadays: made of pine nuts."
   },
   {
     "id": "mon_fish_bluegill",
     "type": "MONSTER",
     "copy-from": "mon_fish_small",
     "name": { "str": "pine nut bluegill" },
-    "description": "A bluegill, an invasive species in Japan.  Commonly gutted and cooked whole."
+    "description": "A bluegill, an invasive species in Japan.  Not like that's relevant now though, seeing as to how this is America and the fish here are made of pine nuts."
   },
   {
     "id": "mon_fish_redbreast",
@@ -348,7 +348,7 @@
     "copy-from": "mon_fish_tiny",
     "name": { "str_sp": "pine nut redbreast sunfish" },
     "looks_like": "mon_fish_sunfish",
-    "description": "A redbreast sunfish.  A small fish related to bass and bluegill."
+    "description": "A redbreast sunfish.  A small fish related to bass and bluegill, although it seems like all fish are the same nowadays: made of pine nuts."
   },
   {
     "id": "mon_fish_green_sunfish",
@@ -356,7 +356,7 @@
     "copy-from": "mon_fish_tiny",
     "name": { "str_sp": "pine nut sunfish" },
     "looks_like": "mon_fish_sunfish",
-    "description": "A green sunfish.  A small fish related to bass and bluegill."
+    "description": "A green sunfish.  A small fish related to bass and bluegill, although it seems like all fish are the same nowadays: made of pine nuts."
   },
   {
     "id": "mon_fish_longear_sunfish",
@@ -364,7 +364,7 @@
     "copy-from": "mon_fish_tiny",
     "name": { "str_sp": "pine nut longear sunfish" },
     "looks_like": "mon_fish_sunfish",
-    "description": "A longear sunfish.  A small fish related to bass and bluegill."
+    "description": "A longear sunfish.  A small fish related to bass and bluegill, although it seems like all fish are the same nowadays: made of pine nuts."
   },
   {
     "id": "mon_fish_redear_sunfish",
@@ -372,7 +372,7 @@
     "copy-from": "mon_fish_tiny",
     "name": { "str_sp": "pine nut redear sunfish" },
     "looks_like": "mon_fish_sunfish",
-    "description": "A redear sunfish.  A small fish related to bass and bluegill."
+    "description": "A redear sunfish.  A small fish related to bass and bluegill, although it seems like all fish are the same nowadays: made of pine nuts."
   },
   {
     "id": "mon_fish_rock_bass",
@@ -380,7 +380,7 @@
     "copy-from": "mon_fish_tiny",
     "name": { "str_sp": "pine nut rock bass" },
     "looks_like": "mon_fish_sunfish",
-    "description": "A rock bass.  Related to sunfish, this tiny fish has a camouflage-like patterning and red eyes."
+    "description": "A rock bass.  Related to sunfish, this tiny fish once had a camouflage-like patterning and red eyes, but it's now just made of pine nuts."
   },
   {
     "id": "mon_fish_calico_bass",
@@ -388,7 +388,7 @@
     "copy-from": "mon_fish_medium",
     "name": { "str_sp": "pine nut calico bass" },
     "looks_like": "mon_fish_pbass",
-    "description": "A calico bass.  A medium-sized fish also known as a 'crappie'."
+    "description": "A calico bass.  A medium-sized fish also known as a 'crappie'.  You can't thnk of a good nickname for it now that it's made of pine nuts, though."
   },
   {
     "id": "mon_fish_warmouth",
@@ -396,14 +396,14 @@
     "copy-from": "mon_fish_small",
     "name": { "str": "pine nut warmouth" },
     "looks_like": "mon_fish_sunfish",
-    "description": "A warmouth, similar to a rock bass.  This small fish is related to the sunfish."
+    "description": "A warmouth, similar to a rock bass.  This small fish is related to the sunfish, although it seems like all fish are the same nowadays: made of pine nuts."
   },
   {
     "id": "mon_fish_bullhead",
     "type": "MONSTER",
     "copy-from": "mon_fish_small",
     "name": { "str": "pine nut bullhead" },
-    "description": "A bullhead, a type of catfish.  Delicious when battered and fried."
+    "description": "A bullhead, a type of catfish.  If it were still made of, you know, fish, it would be delicious when battered and fried."
   },
   {
     "id": "mon_fish_channel_catfish",
@@ -411,7 +411,7 @@
     "copy-from": "mon_fish_large",
     "name": { "str_sp": "pine nut channel catfish" },
     "looks_like": "mon_fish_bullhead",
-    "description": "A channel catfish.  It has a forked tail and long whiskers."
+    "description": "A channel catfish.  It has a forked tail and long whiskers, though it's not clear how that works with pine nuts."
   },
   {
     "id": "mon_fish_white_catfish",
@@ -419,21 +419,21 @@
     "copy-from": "mon_fish_tiny",
     "name": { "str_sp": "pine nut catfish" },
     "looks_like": "mon_fish_bullhead",
-    "description": "A white catfish.  A small whiskered fish with a broad head."
+    "description": "A white catfish.  A small whiskered fish with a broad head, though it's not clear how that works with pine nuts."
   },
   {
     "id": "mon_fish_pike",
     "type": "MONSTER",
     "copy-from": "mon_fish_large",
     "name": { "ctxt": "fish", "str": "pike" },
-    "description": "A northern pike.  Pike can be pretty aggressive fish, careful around those teeth."
+    "description": "A northern pike.  Pike can be pretty aggressive fish, careful around those teeth.  Hard to see how pine nuts could ever be sharp though."
   },
   {
     "id": "mon_fish_pickerel",
     "type": "MONSTER",
     "copy-from": "mon_fish_tiny",
     "name": { "str": "pine nut pickerel" },
-    "description": "A pickerel.  It looks like a pike, but much smaller."
+    "description": "A pickerel.  It looks like a pike, but much smaller.  Still made of pine nuts, though."
   },
   {
     "id": "mon_fish_muskellunge",
@@ -441,7 +441,7 @@
     "copy-from": "mon_fish_large",
     "name": { "str": "pine nut muskellunge" },
     "looks_like": "mon_fish_pike",
-    "description": "A muskellunge.  Closely related to pike, it shares the same aggression and sharp teeth."
+    "description": "A muskellunge.  Closely related to pike, it shares the same aggression and sharp teeth.  Hard to see how pine nuts could ever be sharp though."
   },
   {
     "id": "mon_fish_white_sucker",
@@ -449,14 +449,14 @@
     "copy-from": "mon_fish_small",
     "name": { "str": "pine nut sucker" },
     "looks_like": "mon_fish_pbass",
-    "description": "A white sucker.  It has a streamlined body with a round mouth."
+    "description": "A white sucker.  It has a streamlined body with a round mouth. Hard to call pine nuts streamlined, but it fits."
   },
   {
     "id": "mon_fish_carp",
     "type": "MONSTER",
     "copy-from": "mon_fish_medium",
     "name": { "str": "pine nut carp" },
-    "description": "A golden-yellow common carp.  Some people think they don't taste great, but you can't afford to be choosy in the Cataclysm."
+    "description": "A golden-yellow common carp.  Some people think they don't taste great, but they're made of pine nuts now so it doesn't really matter."
   },
   {
     "id": "mon_fish_grass_carp",
@@ -464,14 +464,14 @@
     "copy-from": "mon_fish_huge",
     "name": { "str": "pine nut grass carp" },
     "looks_like": "mon_fish_carp",
-    "description": "A huge grass carp.  A golden, herbivorous fish."
+    "description": "A huge grass carp.  A golden, herbivorous fish.  You aren't sure you want to know how the non-herbivorous fish work when they're made of pine nuts. Do pine nuts even have protein?"
   },
   {
     "id": "mon_fish_bowfin",
     "type": "MONSTER",
     "copy-from": "mon_fish_large",
     "name": { "str": "pine nut bowfin" },
-    "description": "A bowfin.  These fish are related to gar but without the huge teeth, skin-rending scales, and aggression."
+    "description": "A bowfin.  These fish are related to gar but without the huge teeth, skin-rending scales, and aggression.  You're pretty sure you prefer this version, especially since it's made of pine nuts."
   },
   {
     "id": "mon_fish_fallfish",
@@ -479,7 +479,7 @@
     "copy-from": "mon_fish_small",
     "name": { "str_sp": "pine nut fallfish" },
     "looks_like": "mon_fish_pbass",
-    "description": "A fallfish.  These fish are related to gar but without the huge teeth, skin-rending scales, and aggression."
+    "description": "A fallfish.  These fish are related to gar but without the huge teeth, skin-rending scales, and aggression.  Hard to see how pine nuts could ever be sharp though."
   },
   {
     "id": "mon_fish_lobster",
