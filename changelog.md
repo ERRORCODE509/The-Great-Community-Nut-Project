@@ -13,3 +13,5 @@ Version 0.4:
 -Added pine nut "mech", no spawn yet and requires unimplemented battery
 
 -Other stuff I forgot to write down
+
+-Replaced existing wildlife with pine nut versions, method is messy but it works
