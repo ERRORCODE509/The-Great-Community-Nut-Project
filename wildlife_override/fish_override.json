@@ -640,7 +640,7 @@
     "id": "mon_crayfish_mega",
     "type": "MONSTER",
     "name": { "str_sp": "colossal pine nut crayfish" },
-    "description": "An enormous mutated gray crayfish with pincer claws and long antennae.",
+    "description": "An enormous mutated gray crayfish with pincer claws and long antennae, and it's all made of pine nuts.  Quite intimidating.",
     "copy-from": "mon_giant_crayfish",
     "proportional": { "hp": 10, "speed": 0.25, "dodge": 0.5, "armor_cut": 2, "armor_bullet": 2 },
     "volume": "625 L",
