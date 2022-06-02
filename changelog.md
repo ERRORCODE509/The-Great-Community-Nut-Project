@@ -14,4 +14,4 @@ Version 0.4:
 
 -Other stuff I forgot to write down
 
--Replaced existing wildlife with pine nut versions, method is messy but it works
+-Replaced existing wildlife with pine nut versions, method is messy but it works. One day I might make it better.
